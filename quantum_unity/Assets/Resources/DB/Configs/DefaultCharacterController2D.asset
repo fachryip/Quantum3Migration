@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DefaultCharacterController2D
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/DefaultCharacterController2D
     Guid:
-      Value: 0
+      Value: 3
   Offset:
     X:
       RawValue: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
   Braking:
     RawValue: 655360
   BaseJumpImpulse:
-    RawValue: 262144
+    RawValue: 458752
   MaxSpeed:
     RawValue: 196608
   Gravity:

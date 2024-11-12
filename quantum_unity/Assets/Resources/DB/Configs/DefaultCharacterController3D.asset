@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DefaultCharacterController3D
   m_EditorClassIdentifier: Assembly-CSharp::CharacterController3DConfigAsset
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/DefaultCharacterController3D
     Guid:
-      Value: 0
+      Value: 4
   Offset:
     X:
       RawValue: 0
@@ -26,11 +26,11 @@ MonoBehaviour:
   Radius:
     RawValue: 32768
   MaxPenetration:
-    RawValue: 3277
+    RawValue: 3275
   PenetrationCorrection:
     RawValue: 32768
   Extent:
-    RawValue: 6554
+    RawValue: 6553
   MaxContacts: 8
   LayerMask:
     BitMask: -1
@@ -41,7 +41,7 @@ MonoBehaviour:
   Braking:
     RawValue: 655360
   BaseJumpImpulse:
-    RawValue: 262144
+    RawValue: 393216
   MaxSpeed:
     RawValue: 196608
   Gravity:

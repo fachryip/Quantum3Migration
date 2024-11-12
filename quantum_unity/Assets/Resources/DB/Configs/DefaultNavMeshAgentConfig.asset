@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: DefaultNavMeshAgentConfig
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
     Guid:
-      Value: 0
+      Value: 2
   UpdateInterval: 1
   PathQuality: 1
   CachedWaypointCount: 6

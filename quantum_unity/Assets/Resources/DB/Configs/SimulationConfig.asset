@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SimulationConfig
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/SimulationConfig
     Guid:
-      Value: 0
+      Value: 5
   Entities:
     CommitCommandsMode: 0
     DefaultEntityCapacity: 1024
@@ -51,23 +51,23 @@ MonoBehaviour:
     ShapeCastMaxIterations: 16
     ShapeCastMinIterations: 4
     ShapeCastHardTolerance:
-      RawValue: 66
+      RawValue: 655
     ShapeCastSoftTolerance:
-      RawValue: 3277
+      RawValue: 3275
     AllowSleeping: 0
     SleepTimeSec:
       RawValue: 32768
     LinearSleepTolerance:
-      RawValue: 1311
+      RawValue: 1310
     AngularSleepToleranceInRad:
-      RawValue: 2288
+      RawValue: 2286
     AllowCCD: 0
     CCDLinearVelocityThreshold:
       RawValue: 196608
     CCDAngularVelocityThreshold:
       RawValue: 196608
     CCDDistanceTolerance:
-      RawValue: 66
+      RawValue: 65
     MaxTimeOfImpactIterations: 16
     MaxRootFindingIterations: 32
     DefaultEntriesCapacity: 2048
@@ -81,19 +81,51 @@ MonoBehaviour:
     DefaultJointsCapacity: 128
     DefaultPhysicsMaterial:
       Id:
-        Value: 0
+        Value: 1
     DefaultCharacterController2D:
       Id:
-        Value: 0
+        Value: 3
     DefaultCharacterController3D:
       Id:
-        Value: 0
-    Layers: []
-    LayerMatrix: 
+        Value: 4
+    Layers:
+    - Default
+    - TransparentFX
+    - Ignore Raycast
+    - 
+    - Water
+    - UI
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    LayerMatrix: fffefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   Navigation:
     DefaultNavMeshAgent:
       Id:
-        Value: 0
+        Value: 2
     EnableNavigationCallbacks: 0
     HeightThresholdForWaypoints:
       RawValue: 65536
@@ -106,14 +138,14 @@ MonoBehaviour:
       RawValue: 131072
     MaxAvoidanceCandidates: 64
     VelocityObstacleTruncationFactor:
-      RawValue: 72090
+      RawValue: 72089
   AutoLoadSceneFromMap: 2
   DeltaTimeType: 0
   ThreadCount: 2
   ChecksumSnapshotHistoryLengthSeconds:
     RawValue: 196608
   ChecksumErrorDumpOptions: 0
-  HeapTrackingMode: 1
+  HeapTrackingMode: 0
   HeapPageShift: 15
   HeapPageCount: 256
   HeapExtraCount: 0
