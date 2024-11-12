@@ -15,6 +15,7 @@ MonoBehaviour:
   AssetResourcesPath: Assets/Resources/AssetResources.asset
   AssetSearchPaths:
   - Assets/Resources/DB
+  - Assets/QuantumUser/Resources
   SearchAssemblies:
   - Assembly-CSharp
   - Assembly-CSharp-firstpass
@@ -69,9 +70,7 @@ MonoBehaviour:
   UseQuantumAssetInspector: 1
   UseAssetBasePostprocessor: 1
   UseQuantumToolbarUtilities: 1
-  QuantumToolbarAnchor: 0
-  QuantumToolbarSize: 200
-  QuantumToolbarOffset: 200
+  QuantumToolbarZone: 0
   UsePhotonAppVersionsPostprocessor: 1
   EntityComponentInspectorMode: 2
   FPDisplayPrecision: 5
