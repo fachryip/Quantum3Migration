@@ -24,4 +24,25 @@ MonoBehaviour:
   AutoBuildOnSceneSave: 96
   AutoBuildOnPlaymodeChanged: 96
   AutoBuildOnBuild: 96
-  AssetGuidOverrides: []
+  AssetGuidOverrides:
+  - Asset: {fileID: 11400000, guid: 6e939e96f7d70e7409249d368e7cf863, type: 2}
+    Guid:
+      Value: 3
+  - Asset: {fileID: 11400000, guid: 2ea2a06c76cc35d49be8a25324e787d4, type: 2}
+    Guid:
+      Value: 4
+  - Asset: {fileID: 11400000, guid: b199eb2129ec98e408b3fa8a106d9403, type: 2}
+    Guid:
+      Value: 2
+  - Asset: {fileID: 11400000, guid: 98fccc81f0f5f5541a88d6da1896016c, type: 2}
+    Guid:
+      Value: 1
+  - Asset: {fileID: 11400000, guid: 6986abea4748d7d4099d49d11e593ce8, type: 2}
+    Guid:
+      Value: 5
+  - Asset: {fileID: 11400000, guid: 9e3593e8f91fb094ca2428fdd4cebd90, type: 2}
+    Guid:
+      Value: 1710471675203725834
+  - Asset: {fileID: 11400000, guid: 6d1d88e145b00bc4cb4792fa8fe54d13, type: 2}
+    Guid:
+      Value: 3093865984696992040
