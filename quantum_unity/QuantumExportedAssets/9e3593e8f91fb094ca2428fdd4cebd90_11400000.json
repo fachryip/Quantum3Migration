@@ -1,0 +1,103 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/Map1",
+        "Guid": {
+            "Value": 1710471675203725834
+        }
+    },
+    "UserAsset": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "Scene": "Game",
+    "ScenePath": "Assets/Photon/QuantumDemo/Game/Game.unity",
+    "SceneGuid": "03bd5ba32b9950244a08f22579187d8b",
+    "WorldSize": 256,
+    "BucketsCount": 16,
+    "BucketsSubdivisions": 8,
+    "BucketingAxis": 0,
+    "SortingAxis": 1,
+    "TriangleMeshCellSize": 4,
+    "StaticColliders3DTrianglesData": {
+        "Id": {
+            "Value": 3093865984696992040
+        }
+    },
+    "OptionalTriangleMetadataSerializationEnabled": true,
+    "SerializeTrianglesMetadata": false,
+    "StaticColliders3DTrianglesBinaryFile": "",
+    "GridSizeX": 32,
+    "GridSizeY": 32,
+    "GridNodeSize": 4,
+    "NavMeshLinks": [],
+    "Regions": [],
+    "StaticColliders2D": [],
+    "StaticColliders3D": [
+        {
+            "Rotation": {
+                "X": {
+                    "RawValue": 0
+                },
+                "Y": {
+                    "RawValue": 0
+                },
+                "Z": {
+                    "RawValue": 0
+                },
+                "W": {
+                    "RawValue": 65536
+                }
+            },
+            "Position": {
+                "X": {
+                    "RawValue": 0
+                },
+                "Y": {
+                    "RawValue": 0
+                },
+                "Z": {
+                    "RawValue": 0
+                }
+            },
+            "PhysicsMaterial": {
+                "Id": {
+                    "Value": 0
+                }
+            },
+            "ShapeType": 2,
+            "SphereRadius": {
+                "RawValue": 0
+            },
+            "BoxExtents": {
+                "X": {
+                    "RawValue": 327680
+                },
+                "Y": {
+                    "RawValue": 32768
+                },
+                "Z": {
+                    "RawValue": 327680
+                }
+            },
+            "SmoothSphereMeshCollisions": false,
+            "StaticData": {
+                "Name": "Floor",
+                "Tag": "Untagged",
+                "Layer": 0,
+                "Asset": {
+                    "Id": {
+                        "Value": 0
+                    }
+                },
+                "IsTrigger": false,
+                "ColliderIndex": 0,
+                "MutableMode": 0
+            },
+            "MutableMode": 0
+        }
+    ],
+    "MapEntities": [
+        {}
+    ]
+}
