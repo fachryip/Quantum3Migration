@@ -6,7 +6,7 @@ namespace Quantum
   {
     // Used to either initialize an entity as a bot on the beginning of the match
     // or to turn a player entity into a bot when the player gets disconnected
-    public static void SetupBT(Frame f, EntityRef littleGuyEntity, AssetRefBTRoot bt)
+    public static void SetupBT(Frame f, EntityRef littleGuyEntity, AssetRef<BTRoot> bt)
     {
       var runtimeConfig = f.RuntimeConfig;
 

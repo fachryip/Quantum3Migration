@@ -8,7 +8,7 @@ namespace Quantum
   [AssetObjectConfig(GenerateLinkingScripts = true, GenerateAssetCreateMenu = false, GenerateAssetResetMethod = false)]
   public unsafe partial class ChooseCollectibleAction : AIAction
   {
-    public override unsafe void Update(Frame f, EntityRef e, ref AIContext aiContext)
+    public override unsafe void Execute(Frame f, EntityRef e, ref AIContext aiContext)
     {
       var collectibles = f.GetComponentIterator<CollectibleComponent>();
 
@@ -40,7 +40,7 @@ namespace Quantum
   [AssetObjectConfig(GenerateLinkingScripts = true, GenerateAssetCreateMenu = false, GenerateAssetResetMethod = false)]
   public unsafe partial class PickupCollectibleAction : AIAction
   {
-    public override unsafe void Update(Frame f, EntityRef e, ref AIContext aiContext)
+    public override unsafe void Execute(Frame f, EntityRef e, ref AIContext aiContext)
     {
       var guyComponent = f.Unsafe.GetPointer<LittleGuyComponent>(e);
       var guyPosition = f.Get<Transform2D>(e).Position;
@@ -66,7 +66,7 @@ namespace Quantum
   {
     private FPVector2 _deliveryPos = new FPVector2(0, 5);
 
-    public override unsafe void Update(Frame f, EntityRef e, ref AIContext aiContext)
+    public override unsafe void Execute(Frame f, EntityRef e, ref AIContext aiContext)
     {
       var guyComponent = f.Unsafe.GetPointer<LittleGuyComponent>(e);
       var guyPosition = f.Get<Transform2D>(e).Position;
@@ -79,7 +79,7 @@ namespace Quantum
   [AssetObjectConfig(GenerateLinkingScripts = true, GenerateAssetCreateMenu = false, GenerateAssetResetMethod = false)]
   public unsafe partial class StopMovingAction : AIAction
   {
-    public override unsafe void Update(Frame f, EntityRef e, ref AIContext aiContext)
+    public override unsafe void Execute(Frame f, EntityRef e, ref AIContext aiContext)
     {
       var guyComponent = f.Unsafe.GetPointer<LittleGuyComponent>(e);
       guyComponent->BotData.BotInput.Movement = FPVector2.Zero;

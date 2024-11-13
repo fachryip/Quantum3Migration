@@ -23,7 +23,7 @@ namespace Quantum
       p.Blackboard->UnregisterReactiveDecorator(p.Frame, IntruderRef.Key, this);
     }
 
-    public override bool DryRun(BTParams p, ref AIContext aiContext)
+    public override bool CheckConditions(BTParams p, ref AIContext aiContext)
     {
       var target = p.Blackboard->GetEntityRef(p.Frame, IntruderRef.Key);
       return target == default;

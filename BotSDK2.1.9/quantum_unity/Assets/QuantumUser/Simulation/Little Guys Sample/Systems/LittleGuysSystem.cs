@@ -111,7 +111,7 @@ namespace Quantum
     // as further the code will use it in order to get the player input.
     // If the entity will be controlled by a Bot during the whole match (which in this case means 
     // that the room was filled by bots), then the PlayerRef on the entity will be the default one.
-    private void CreateBot_HFSM(Frame f, AssetRefHFSMRoot hfsm)
+    private void CreateBot_HFSM(Frame f, AssetRef<HFSMRoot> hfsm)
     {
       var littleGuy = CreateLittleGuy(f);
 
@@ -123,7 +123,7 @@ namespace Quantum
     }
 
     // Same considerations as the method "CreateBot_HFSM"
-    private void CreateBot_BT(Frame f, AssetRefBTRoot bt)
+    private void CreateBot_BT(Frame f, AssetRef<BTRoot> bt)
     {
       var littleGuy = CreateLittleGuy(f);
 
@@ -182,10 +182,10 @@ namespace Quantum
         return BotType.HFSM;
       }
 
-      if (f.Has<GOAPAgent>(littleGuy))
-      {
-        return BotType.GOAP;
-      }
+      //if (f.Has<GOAPAgent>(littleGuy))
+      //{
+      //  return BotType.GOAP;
+      //}
 
       if (f.Has<BTAgent>(littleGuy))
       {

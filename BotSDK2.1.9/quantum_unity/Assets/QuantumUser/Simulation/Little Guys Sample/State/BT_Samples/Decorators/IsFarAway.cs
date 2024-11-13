@@ -12,7 +12,7 @@ namespace Quantum
   {
     public AIBlackboardValueKey Target;
 
-    public override bool DryRun(BTParams p, ref AIContext aiContext)
+    public override bool CheckConditions(BTParams p, ref AIContext aiContext)
     {
       var f = p.Frame;
       var e = p.Entity;

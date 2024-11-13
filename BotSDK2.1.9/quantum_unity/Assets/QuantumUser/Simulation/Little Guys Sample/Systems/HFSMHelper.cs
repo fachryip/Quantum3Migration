@@ -6,7 +6,7 @@ namespace Quantum
   {
     // Used to either initialize an entity as a bot on the beginning of the match
     // or to turn a player entity into a bot when the player gets disconnected
-    public static void SetupHFSM(Frame f, EntityRef littleGuyEntity, AssetRefHFSMRoot hfsm)
+    public static void SetupHFSM(Frame f, EntityRef littleGuyEntity, AssetRef<HFSMRoot> hfsm)
     {
       var runtimeConfig = f.RuntimeConfig;
       
@@ -16,7 +16,7 @@ namespace Quantum
 
       // Create the HFSM Agent and pick the AIConfig, if there is any
       var hfsmAgent = new HFSMAgent();
-      hfsmAgent.Config = runtimeConfig.AIConfig;
+      //hfsmAgent.Config = runtimeConfig.AIConfig;
 
       var hfsmRoot = f.FindAsset<HFSMRoot>(hfsm.Id);
       HFSMManager.Init(f, &hfsmAgent.Data, littleGuyEntity, hfsmRoot);

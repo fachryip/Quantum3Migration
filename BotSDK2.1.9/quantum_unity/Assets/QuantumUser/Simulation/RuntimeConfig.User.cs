@@ -6,24 +6,22 @@ namespace Quantum
     partial class RuntimeConfig
     {
         // Which HFSMs will be created. Player agnostic
-        public AssetRefHFSMRoot[] HFSMNpcs;
-        // Which GOAPs will be created. Player agnostic
-        public AssetRefGOAPRoot[] GOAPNpcs;
+        public AssetRef<HFSMRoot>[] HFSMNpcs;
         // Which BTs will be created. Player agnostic
-        public AssetRefBTRoot[] BTNpcs;
+        public AssetRef<BTRoot>[] BTNpcs;
 
         // Which HFSMs should take control when replacing disconnected players
-        public AssetRefHFSMRoot ReplacementHFSM;
+        public AssetRef<HFSMRoot> ReplacementHFSM;
 
         // The Blackboard used by the HFSM agents
-        public AssetRefAIBlackboardInitializer HFSMBlackboardInitializer;
+        public AssetRef<AIBlackboardInitializer> HFSMBlackboardInitializer;
         // The Blackboard used by the BT agents
-        public AssetRefAIBlackboardInitializer BTBlackboardInitializer;
+        public AssetRef<AIBlackboardInitializer> BTBlackboardInitializer;
         // The Blackboard used by the UT agents
-        public AssetRefAIBlackboardInitializer UTBlackboardInitializer;
+        public AssetRef<AIBlackboardInitializer> UTBlackboardInitializer;
 
         // The AIConfig used by the HFSMs
-        public AssetRefAIConfig AIConfig;
+        public AssetRef<AIConfig> AIConfig;
 
         // Should players be replaced if they disconnect?
         public bool ReplaceOnDisconnect;
@@ -40,12 +38,6 @@ namespace Quantum
             for (int i = 0; i < HFSMNpcs.Length; i++)
             {
                 stream.Serialize(ref HFSMNpcs[i].Id.Value);
-            }
-
-            stream.SerializeArrayLength(ref GOAPNpcs);
-            for (int i = 0; i < GOAPNpcs.Length; i++)
-            {
-                stream.Serialize(ref GOAPNpcs[i].Id.Value);
             }
 
             stream.SerializeArrayLength(ref BTNpcs);

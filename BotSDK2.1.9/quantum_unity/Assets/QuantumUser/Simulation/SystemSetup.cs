@@ -1,4 +1,5 @@
 ﻿using Photon.Deterministic;
+using Quantum.BotSDK;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Quantum {
         // user systems go here 
         // Bot SDK
         new BotSDKDebuggerSystem(),
-                new BotSDKTimerSystem(),
+        new BotSDKTimerSystem(),
 
         new MainSystem(),
 
