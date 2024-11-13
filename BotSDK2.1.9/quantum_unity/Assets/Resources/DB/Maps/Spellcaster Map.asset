@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a366507de6e4aa44aea490bd69adace, type: 3}
+  m_Name: Spellcaster Map
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Maps/Spellcaster Map
+      Guid:
+        Value: 3117678447127958250
+    UserAsset:
+      Id:
+        Value: 0
+    Scene: Spellcaster Sample
+    ScenePath: Assets/Scenes/Spellcaster Sample.unity
+    SceneGuid: cccece8435b68024f9174113cc6bd18c
+    WorldSize: 128
+    BucketsCount: 16
+    BucketsSubdivisions: 8
+    BucketingAxis: 0
+    SortingAxis: 1
+    TriangleMeshCellSize: 4
+    StaticColliders3DTrianglesData:
+      Id:
+        Value: 3936339046640904086
+    OptionalTriangleMetadataSerializationEnabled: 1
+    SerializeTrianglesMetadata: 0
+    StaticColliders3DTrianglesBinaryFile: 
+    GridSizeX: 32
+    GridSizeY: 32
+    GridNodeSize: 4
+    NavMeshLinks: []
+    Regions: []
+    StaticColliders2D: []
+    StaticColliders3D:
+    - Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+        W:
+          RawValue: 65536
+      Position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: -32768
+        Z:
+          RawValue: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+      ShapeType: 2
+      SphereRadius:
+        RawValue: 0
+      BoxExtents:
+        X:
+          RawValue: 3276800
+        Y:
+          RawValue: 32768
+        Z:
+          RawValue: 3276800
+      SmoothSphereMeshCollisions: 0
+      StaticData:
+        Name: Ground
+        Tag: Untagged
+        Layer: 0
+        Asset:
+          Id:
+            Value: 0
+        IsTrigger: 0
+        ColliderIndex: 0
+        MutableMode: 0
+      MutableMode: 0
+    MapEntities: []
+  Prototypes:
+  - AIBlackboardComponent: []
+    BTAgent: []
+    Castle: []
+    CollectibleComponent: []
+    CompoundBTAgent: []
+    Fighter: []
+    GOAPAgent: []
+    GOAPData: []
+    HFSMAgent: []
+    Health: []
+    LittleGuyComponent: []
+    Movement: []
+    SpeedModifier: []
+    SpeedSpell: []
+    Spell: []
+    Spellcaster: []
+    Summoner: []
+    UTAgent: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D:
+    - Position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+      Rotation:
+        RawValue: 0
+    Transform2DVertical: []
+    Transform3D: []
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - AIBlackboardComponent:
+    - Board:
+        Id:
+          Value: 0
+      Entries: []
+    BTAgent: []
+    Castle: []
+    CollectibleComponent: []
+    CompoundBTAgent: []
+    Fighter: []
+    GOAPAgent: []
+    GOAPData: []
+    HFSMAgent: []
+    Health: []
+    LittleGuyComponent: []
+    Movement: []
+    SpeedModifier: []
+    SpeedSpell: []
+    Spell: []
+    Spellcaster:
+    - SpellsCooldown: []
+    Summoner: []
+    UTAgent:
+    - UtilityReasoner:
+        UTRoot:
+          Id:
+            Value: 3405019063972122879
+        Considerations: []
+        HighRankConsiderations: []
+        MomentumList: []
+        TimeToTick:
+          RawValue: 0
+        CooldownsDict: []
+        PreviousExecution: []
+      Config:
+        Id:
+          Value: 0
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D: []
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D: []
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 131072
+        Z:
+          RawValue: -786432
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - AIBlackboardComponent: []
+    BTAgent: []
+    Castle:
+    - _empty_prototype_dummy_field_: 0
+    CollectibleComponent: []
+    CompoundBTAgent: []
+    Fighter: []
+    GOAPAgent: []
+    GOAPData: []
+    HFSMAgent: []
+    Health:
+    - MaxValue:
+        RawValue: 1310720
+      Current:
+        RawValue: 0
+    LittleGuyComponent: []
+    Movement: []
+    SpeedModifier: []
+    SpeedSpell: []
+    Spell: []
+    Spellcaster: []
+    Summoner: []
+    UTAgent: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D: []
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 2293760
+          Y:
+            RawValue: 65536
+          Z:
+            RawValue: 49152
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 0
+      IsTrigger: 1
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 128
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 65536
+        Z:
+          RawValue: -655360
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []

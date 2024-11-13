@@ -1,0 +1,8 @@
+﻿asset import VerifyLoadedDecision;
+asset import TargetExistDecision;
+asset import AnyCollectibleExist;
+
+asset import ChooseCollectibleAction;
+asset import PickupCollectibleAction;
+asset import DeliverCollectibleAction;
+asset import StopMovingAction;

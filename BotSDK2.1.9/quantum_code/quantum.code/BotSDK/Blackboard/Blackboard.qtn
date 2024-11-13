@@ -1,0 +1,26 @@
+﻿asset AIBlackboard;
+asset AIBlackboardInitializer;
+
+import struct AssetRef(8);
+
+union BlackboardValue {
+	QBoolean BooleanValue;
+	byte ByteValue;
+	Int32 IntegerValue;
+	FP FPValue;
+	FPVector2 FPVector2Value;
+	FPVector3 FPVector3Value;
+	entity_ref EntityRefValue;
+	AssetRef AssetRefValue;
+}
+
+component AIBlackboardComponent {
+	asset_ref<AIBlackboard> Board;
+	dictionary<Int32, BlackboardEntry> Entries;
+}
+
+
+struct BlackboardEntry{
+	BlackboardValue Value;
+	list<AssetRefBTDecorator> ReactiveDecorators;
+}

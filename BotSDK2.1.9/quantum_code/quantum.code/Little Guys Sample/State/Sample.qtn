@@ -1,0 +1,30 @@
+﻿enum BotType {
+	None, HFSM, GOAP, BT
+}
+
+struct BotData {
+	Input BotInput;
+	entity_ref TargetCollectible;
+	asset_ref<AIConfig> Config;
+	Boolean Loaded;
+}
+
+component LittleGuyComponent{
+	player_ref PlayerRef;
+	BotType BotType;
+	BotData BotData;
+	QBoolean IsBot;
+}
+
+component CollectibleComponent{
+}
+
+input {
+	FPVector2 Movement;
+}
+
+global
+{
+	FP FillRoomTimer;
+	Boolean FilledRoom;
+}

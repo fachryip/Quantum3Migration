@@ -1,0 +1,18 @@
+﻿asset UTRoot;
+asset Consideration;
+
+component UTAgent
+{
+}
+
+struct UTMomentumPack
+{
+    AssetRefConsideration ConsiderationRef;
+    UTMomentumData MomentumData;
+}
+
+struct UTMomentumData
+{
+    Int32 Value;
+    Byte DecayAmount;
+}

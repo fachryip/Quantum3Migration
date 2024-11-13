@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBF32099-B197-4AB9-8E5A-B44D9D3750BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quantum</RootNamespace>
+    <AssemblyName>quantum.code</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <!-- Valid options are: (empty), max-components-512 -->
+    <QuantumCoreAssemblyPathSuffix />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\quantum_unity\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;QUANTUM_PROFILER_ENABLED</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\quantum_unity\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseProfiler|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\quantum_unity\Assets\Photon\Quantum\Assemblies\</OutputPath>
+    <DefineConstants>QUANTUM_PROFILER_ENABLED</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <LangVersion>latest</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowedReferenceRelatedFileExtensions>.pdb</AllowedReferenceRelatedFileExtensions>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="PhotonDeterministic, Version=2.1.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath Condition="'$(Configuration)' == 'Release'">..\..\assemblies\release\PhotonDeterministic.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'Debug'">..\..\assemblies\debug\PhotonDeterministic.dll</HintPath>
+    </Reference>
+    <Reference Include="quantum.core, Version=2.1.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath Condition="'$(Configuration)' == 'Release'">..\..\assemblies\release\$(QuantumCoreAssemblyPathSuffix)\quantum.core.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'ReleaseProfiler'">..\..\assemblies\release-profiler\$(QuantumCoreAssemblyPathSuffix)\quantum.core.dll</HintPath>
+      <HintPath Condition="'$(Configuration)' == 'Debug'">..\..\assemblies\debug\$(QuantumCoreAssemblyPathSuffix)\quantum.core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BotSDK\AI\BT\BehaviourTree.Manager.cs" />
+    <Compile Include="BotSDK\AI\BT\BehaviourTree.Manager.Threadsafe.cs" />
+    <Compile Include="BotSDK\AI\BT\BTAgent\BTAgent.User.cs" />
+    <Compile Include="BotSDK\AI\BT\BTAgent\BTAgent.User.Data.cs" />
+    <Compile Include="BotSDK\AI\BT\Composite\BTSelector.cs" />
+    <Compile Include="BotSDK\AI\BT\Composite\BTSelectorRandom.cs" />
+    <Compile Include="BotSDK\AI\BT\Composite\BTSequence.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTComposite.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTDataIndex.User.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTDecorator.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTLeaf.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTNode.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTParams.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTRoot.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\BTService.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\Types\BTAbort.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\Types\BTNodeType.cs" />
+    <Compile Include="BotSDK\AI\BT\Core\Types\BTStatus.cs" />
+    <Compile Include="BotSDK\AI\BT\Decorator\BTBlackboardCompare.cs" />
+    <Compile Include="BotSDK\AI\BT\Decorator\BTCooldown.cs" />
+    <Compile Include="BotSDK\AI\BT\Decorator\BTForceResult.cs" />
+    <Compile Include="BotSDK\AI\BT\Decorator\BTLoop.cs" />
+    <Compile Include="BotSDK\AI\BT\Leaf\DebugLeaf.cs" />
+    <Compile Include="BotSDK\AI\BT\Leaf\WaitLeaf.cs" />
+    <Compile Include="BotSDK\AI\BT\Service\DebugService.cs" />
+    <Compile Include="BotSDK\AI\Common\AIAction.cs" />
+    <Compile Include="BotSDK\AI\Common\AIContext\AIContext.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunction.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionAssetRef.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionBool.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionByte.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionEntityRef.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionFP.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionFPVector2.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionFPVector3.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionInt.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionLists.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\AIFunctionString.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\Operators\AIFunctionAND.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\Operators\AIFunctionNOT.cs" />
+    <Compile Include="BotSDK\AI\Common\AIFunction\Operators\AIFunctionOR.cs" />
+    <Compile Include="BotSDK\AI\Common\BotSDKAttributes.cs" />
+    <Compile Include="BotSDK\AI\Common\Params\AIConfig.cs" />
+    <Compile Include="BotSDK\AI\Common\Params\AIParam.cs" />
+    <Compile Include="BotSDK\AI\Common\Params\AIParam.Types.cs" />
+    <Compile Include="BotSDK\AI\Common\Params\AIParamExtensions.cs" />
+    <Compile Include="BotSDK\AI\Common\ResponseCurve.cs" />
+    <Compile Include="BotSDK\AI\Debugger\BotSDKDebugInfo.cs" />
+    <Compile Include="BotSDK\AI\Debugger\IBotDebug.cs" />
+    <Compile Include="BotSDK\AI\GOAP\GOAPAction.cs" />
+    <Compile Include="BotSDK\AI\GOAP\GOAPDefaultAction.cs" />
+    <Compile Include="BotSDK\AI\GOAP\GOAPDefaultGoal.cs" />
+    <Compile Include="BotSDK\AI\GOAP\GOAPGoal.cs" />
+    <Compile Include="BotSDK\AI\GOAP\GOAPRoot.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.Decision.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.LogicalDecisions.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.Manager.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.Manager.Threadsafe.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.Root.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.State.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.Transition.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSM.TransitionSet.cs" />
+    <Compile Include="BotSDK\AI\HFSM\HFSMAgent.User.cs" />
+    <Compile Include="BotSDK\AI\UT\Consideration.cs" />
+    <Compile Include="BotSDK\AI\UT\UTAgent.User.cs" />
+    <Compile Include="BotSDK\AI\UT\UTMomentumData.User.cs" />
+    <Compile Include="BotSDK\AI\UT\UTRoot.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboard.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardComponent\AIBlackboardComponent.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardComponent\AIBlackboardComponent.Data.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardEntry.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardInitializer.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardValueKey.cs" />
+    <Compile Include="BotSDK\Blackboard\AIBlackboardValueType.cs" />
+    <Compile Include="BotSDK\Blackboard\BlackboardEntry.cs" />
+    <Compile Include="BotSDK\Blackboard\BlackboardValue.cs" />
+    <Compile Include="BotSDK\Core\BotSDK.Frame.User.cs" />
+    <Compile Include="BotSDK\Core\BotSDKCompilerCallbacks.cs" />
+    <Compile Include="BotSDK\Core\BotSDKDebuggerSystem.cs" />
+    <Compile Include="BotSDK\Core\BotSDKSystem.cs" />
+    <Compile Include="BotSDK\Core\BotSDKTimerSystem.cs" />
+    <Compile Include="BotSDK\Core\EBotSDKType.cs" />
+    <Compile Include="BotSDK\Core\EditorEvents\EditorEvents.BT.cs" />
+    <Compile Include="BotSDK\Core\EditorEvents\EditorEvents.HFSM.cs" />
+    <Compile Include="BotSDK\Core\EditorEvents\EditorEvents.UT.cs" />
+    <Compile Include="BotSDK\Samples\Actions\DebugAction.cs" />
+    <Compile Include="BotSDK\Samples\Actions\IdleAction.cs" />
+    <Compile Include="BotSDK\Samples\Actions\IncreaseBlackboardInt.cs" />
+    <Compile Include="BotSDK\Samples\Actions\SetBlackboardInt.cs" />
+    <Compile Include="BotSDK\Samples\Decisions\HFSM.CheckBlackboardInt.cs" />
+    <Compile Include="BotSDK\Samples\Decisions\HFSM.TimerDecision.cs" />
+    <Compile Include="BotSDK\Samples\Decisions\HFSM.TrueDecision.cs" />
+    <Compile Include="BotSDK\Utilities\Pool.cs" />
+    <Compile Include="BotSDK\Utilities\StopwatchBlock.cs" />
+    <Compile Include="CommandSetup.User.cs" />
+    <Compile Include="Core\CodeGen.cs" />
+    <Compile Include="CommandSetup.Legacy.cs" />
+    <Compile Include="Core\Core.cs" />
+    <Compile Include="Frame.User.cs" />
+    <Compile Include="FrameContext.User.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Decorators\CollectibleExists.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Decorators\IsFarAway.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Decorators\NoIntruderNearby.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Leafs\DeliverCollectible.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Leafs\FindCollectible.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Leafs\FollowIntruder.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Leafs\PickupCollectible.cs" />
+    <Compile Include="Little Guys Sample\State\BT_Samples\Services\SeekIntruder.cs" />
+    <Compile Include="Little Guys Sample\State\SampleActions.cs" />
+    <Compile Include="Little Guys Sample\State\SampleAIFunctions.cs" />
+    <Compile Include="Little Guys Sample\State\SampleDecisions.cs" />
+    <Compile Include="Little Guys Sample\Systems\BTHelper.cs" />
+    <Compile Include="Little Guys Sample\Systems\CollectiblesSystem.cs" />
+    <Compile Include="Little Guys Sample\Systems\HFSMHelper.cs" />
+    <Compile Include="Little Guys Sample\Systems\LittleGuysSampleSystems.cs" />
+    <Compile Include="Little Guys Sample\Systems\LittleGuysSystem.cs" />
+    <Compile Include="MainSystem.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.6.2.AssemblyAttributes.cs" />
+    <Compile Include="RuntimeConfig.User.cs" />
+    <Compile Include="RuntimePlayer.User.cs" />
+    <Compile Include="SimulationConfig.User.cs" />
+    <Compile Include="SystemSetup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="db.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BotSDK\AI\BT\bt.qtn" />
+    <None Include="BotSDK\AI\Common\AIAction.qtn" />
+    <None Include="BotSDK\AI\Common\AIFunction\AIFunction.qtn" />
+    <None Include="BotSDK\AI\Common\Params\AIConfig.qtn" />
+    <None Include="BotSDK\AI\GOAP\GOAP.qtn" />
+    <None Include="BotSDK\AI\GOAP\GOAPState.qtn" />
+    <None Include="BotSDK\AI\HFSM\HFSM.qtn" />
+    <None Include="BotSDK\AI\UT\UT.qtn" />
+    <None Include="BotSDK\Blackboard\Blackboard.qtn" />
+    <None Include="BotSDK\Core\BotSDK.qtn" />
+    <None Include="Little Guys Sample\State\AssetImports.qtn" />
+    <None Include="Little Guys Sample\State\Sample.qtn" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\quantum..687D3AA2.Up2Date" />
+    <None Include="obj\Debug\quantum.code.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\quantum.code.csproj.CoreCompileInputs.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\quantum.code.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\quantum.code.dll" />
+    <Content Include="obj\Debug\quantum.code.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent Condition="'$(OS)' == 'Windows_NT'">"$(ProjectDir)..\..\tools\codegen_unity\quantum.codegen.unity.host.exe" "$(TargetDir)\quantum.code.dll" "$(ProjectDir)..\..\quantum_unity\Assets"</PostBuildEvent>
+    <PreBuildEvent Condition="'$(OS)' == 'Windows_NT'">"$(ProjectDir)..\..\tools\codegen\quantum.codegen.host.exe" "$(ProjectPath)"</PreBuildEvent>
+    <PostBuildEvent Condition="'$(OS)' != 'Windows_NT'">mono "$(ProjectDir)..\..\tools\codegen_unity\quantum.codegen.unity.host.exe" "$(TargetDir)\quantum.code.dll" "$(ProjectDir)..\..\quantum_unity\Assets"</PostBuildEvent>
+    <PreBuildEvent Condition="'$(OS)' != 'Windows_NT'">mono "$(ProjectDir)..\..\tools\codegen\quantum.codegen.host.exe" "$(ProjectPath)"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

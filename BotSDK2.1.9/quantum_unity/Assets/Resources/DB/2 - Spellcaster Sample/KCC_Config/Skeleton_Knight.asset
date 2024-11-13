@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab6f3d6bf4b1ff41a8a53503e10efb3, type: 3}
+  m_Name: Skeleton_Knight
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Knight
+      Guid:
+        Value: 874342988967139525
+    Offset:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 65536
+      Z:
+        RawValue: 0
+    Radius:
+      RawValue: 65536
+    MaxPenetration:
+      RawValue: 6553
+    PenetrationCorrection:
+      RawValue: 32768
+    Extent:
+      RawValue: 0
+    MaxContacts: 4
+    LayerMask:
+      BitMask: 311
+    UseManifoldNormal: 0
+    AirControl: 0
+    Acceleration:
+      RawValue: 655360
+    Braking:
+      RawValue: 661913
+    BaseJumpImpulse:
+      RawValue: 131072
+    MaxSpeed:
+      RawValue: 131072
+    Gravity:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: -655360
+      Z:
+        RawValue: 0
+    MaxSlope:
+      RawValue: 3932160
+    MaxSlopeSpeed:
+      RawValue: 327680

@@ -1,0 +1,777 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -848903485, guid: ac6ccf3f9f959c0478b7968b94ac9704, type: 3}
+  m_Name: LittleGuyBT
+  m_EditorClassIdentifier: 
+  Xml: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<Document>\r\n  <Id>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Id>\r\n 
+    <Version>1</Version>\r\n  <Meta>false</Meta>\r\n  <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n 
+    <DebugKey>b52aa402-ba57-46ea-98d0-7650a8067058</DebugKey>\r\n  <Flags>0</Flags>\r\n 
+    <Parent>$bt</Parent>\r\n  <Error Count=\"0\" />\r\n  <Comments Count=\"0\" />\r\n 
+    <StickyNotes Count=\"0\" />\r\n  <HiddenActionsDecisions Count=\"0\" />\r\n 
+    <Vars Count=\"1\">\r\n    <Key>d4990101-0612-4163-9efb-48613530236d</Key>\r\n   
+    <Var>\r\n      <Id>d4990101-0612-4163-9efb-48613530236d</Id>\r\n      <Name>IntruderRef</Name>\r\n     
+    <Type>Quantum.EntityRef, quantum.core</Type>\r\n      <Default></Default>\r\n     
+    <Flags>0</Flags>\r\n      <VarMode>MetaField</VarMode>\r\n      <TypeMode>Value</TypeMode>\r\n     
+    <Scope>Blackboard</Scope>\r\n    </Var>\r\n  </Vars>\r\n  <Nodes Count=\"41\">\r\n   
+    <Key>08134de2-bcf0-4784-869c-6bd403490f3d</Key>\r\n    <Node>\r\n      <Id>08134de2-bcf0-4784-869c-6bd403490f3d</Id>\r\n     
+    <Name>IsFarAway</Name>\r\n      <Comment></Comment>\r\n      <Graph>b978a684-5b82-4cee-8e7f-094166c6a4bb</Graph>\r\n     
+    <Parent>$decorator/IsFarAway</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>206|239||0</Position>\r\n      <StaticIn
+    Count=\"6\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Target</Id>\r\n          <Name>Target</Name>\r\n         
+    <Value Type=\"Quantum.AIBlackboardValueKey, quantum.code\">Quantum.AIBlackboardValueKey</Value>\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Child</Id>\r\n          <Name>Child</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>AbortType</Id>\r\n          <Name>AbortType</Name>\r\n         
+    <Value Type=\"Quantum.BTAbort, quantum.code\">None</Value>\r\n          <Type>Quantum.BTAbort,
+    quantum.code</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Label</Id>\r\n          <Name>Label</Name>\r\n          <Value />\r\n         
+    <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value Type=\"@int32\">0</Value>\r\n         
+    <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n      </StaticIn>\r\n      <StaticOut
+    Count=\"1\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">3263858815880111754</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>0e45af2b-4c19-40f5-b449-0a005df1ff3d</Key>\r\n   
+    <Node>\r\n      <Id>0e45af2b-4c19-40f5-b449-0a005df1ff3d</Id>\r\n      <Name>CollectibleExists</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>3bef7ffd-db33-487c-acaf-f894c4310eb1</Graph>\r\n     
+    <Parent>$decorator/CollectibleExists</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>203|239||0</Position>\r\n      <StaticIn
+    Count=\"5\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Child</Id>\r\n          <Name>Child</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>AbortType</Id>\r\n          <Name>AbortType</Name>\r\n         
+    <Value Type=\"Quantum.BTAbort, quantum.code\">None</Value>\r\n          <Type>Quantum.BTAbort,
+    quantum.code</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Label</Id>\r\n          <Name>Label</Name>\r\n          <Value />\r\n         
+    <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value Type=\"@int32\">0</Value>\r\n         
+    <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n      </StaticIn>\r\n      <StaticOut
+    Count=\"1\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">4115441448600793181</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>0f6379c1-7fd3-46dd-9d58-acf7fbcb4946</Key>\r\n   
+    <Node>\r\n      <Id>0f6379c1-7fd3-46dd-9d58-acf7fbcb4946</Id>\r\n      <Name>DeliverCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>c88139d3-edc3-4227-97ca-4cf29d4384bc</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>134343c4-fa63-419b-8f57-6f4b3157454d</Key>\r\n   
+    <Node>\r\n      <Id>134343c4-fa63-419b-8f57-6f4b3157454d</Id>\r\n      <Name>DebugLeaf</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>e3c0f638-b173-42d8-adb5-621a2a0432dc</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|-5||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>1cbdfde7-c21e-4f32-bf83-82812a777fd1</Key>\r\n    <Node>\r\n      <Id>1cbdfde7-c21e-4f32-bf83-82812a777fd1</Id>\r\n     
+    <Name>BTSelector</Name>\r\n      <Comment></Comment>\r\n      <Graph>8f8b2328-1d90-4657-9f72-c776f7fe966b</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>1f83140c-d4a6-454b-bd8c-1704e8d09aef</Key>\r\n   
+    <Node>\r\n      <Id>1f83140c-d4a6-454b-bd8c-1704e8d09aef</Id>\r\n      <Name>NoIntruderNearby</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$decorator/NoIntruderNearby</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>206|229||0</Position>\r\n      <StaticIn
+    Count=\"6\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IntruderRef</Id>\r\n          <Name>IntruderRef</Name>\r\n         
+    <Value Type=\"Quantum.AIBlackboardValueKey, quantum.code\">Quantum.AIBlackboardValueKey</Value>\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Child</Id>\r\n          <Name>Child</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>AbortType</Id>\r\n          <Name>AbortType</Name>\r\n         
+    <Value Type=\"Quantum.BTAbort, quantum.code\">Self</Value>\r\n          <Type>Quantum.BTAbort,
+    quantum.code</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Label</Id>\r\n          <Name>Label</Name>\r\n          <Value />\r\n         
+    <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value Type=\"@int32\">0</Value>\r\n         
+    <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n      </StaticIn>\r\n      <StaticOut
+    Count=\"1\">\r\n        <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n         
+    <Value />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">1452781676455243959</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>2ee8dcfb-31e0-4997-b74a-b003f0bb4403</Key>\r\n   
+    <Node>\r\n      <Id>2ee8dcfb-31e0-4997-b74a-b003f0bb4403</Id>\r\n      <Name>Root</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$root</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n      <Flags>0</Flags>\r\n     
+    <Position>16|0||0</Position>\r\n      <StaticIn Count=\"0\" />\r\n      <StaticOut
+    Count=\"1\">\r\n        <Slot>\r\n          <Id>$out</Id>\r\n          <Name>Out</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>$default</Name>\r\n          <Value Type=\"@boolean\">True</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>3b266e64-9a81-40e0-b555-c41875bd90be</Key>\r\n    <Node>\r\n     
+    <Id>3b266e64-9a81-40e0-b555-c41875bd90be</Id>\r\n      <Name>BlackboardVar</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$blackboardVarData</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>8</Flags>\r\n      <Position>444|421||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\"
+    />\r\n      <Data Count=\"8\">\r\n        <Data>\r\n          <Name>$default</Name>\r\n         
+    <Value Type=\"Quantum.EntityRef, quantum.core\">E.00000.000-</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n        <Data>\r\n          <Name>$hasDefault</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n        </Data>\r\n        <Data>\r\n         
+    <Name>True</Name>\r\n          <Value />\r\n        </Data>\r\n        <Data>\r\n         
+    <Name>$bbType</Name>\r\n          <Value Type=\"@string\">EntityRef</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name>Boolean</Name>\r\n          <Value
+    />\r\n        </Data>\r\n        <Data>\r\n          <Name>$varId</Name>\r\n         
+    <Value Type=\"@string\">e2c8ef27-1ec9-4a25-81ee-66d5a8a7302c</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>3bef7ffd-db33-487c-acaf-f894c4310eb1</Key>\r\n    <Node>\r\n     
+    <Id>3bef7ffd-db33-487c-acaf-f894c4310eb1</Id>\r\n      <Name>PickupCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$leaf/PickupCollectible</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>-266|559||0</Position>\r\n      <StaticIn
+    Count=\"3\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"1\">\r\n        <Data>\r\n          <Name>Guid</Name>\r\n         
+    <Value Type=\"System.Int64, mscorlib\">3595593222602555302</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>3c000f4c-d214-4c3d-919b-a9df043efdf9</Key>\r\n    <Node>\r\n     
+    <Id>3c000f4c-d214-4c3d-919b-a9df043efdf9</Id>\r\n      <Name>FollowIntruder</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>b978a684-5b82-4cee-8e7f-094166c6a4bb</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>4086065d-81e8-4226-a8ac-123b2993ae4d</Key>\r\n    <Node>\r\n      <Id>4086065d-81e8-4226-a8ac-123b2993ae4d</Id>\r\n     
+    <Name>IntruderRef</Name>\r\n      <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$blackboardRef</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>117|542||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"2\">\r\n        <Slot>\r\n         
+    <Id>$keyOut</Id>\r\n          <Name>Key</Name>\r\n          <Value />\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$valueOut</Id>\r\n          <Name>Value</Name>\r\n         
+    <Value />\r\n          <Type>Quantum.EntityRef, quantum.core</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"2\">\r\n        <Data>\r\n          <Name>$varId</Name>\r\n         
+    <Value Type=\"@string\">d4990101-0612-4163-9efb-48613530236d</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>4791189a-9fe4-4ff3-8fff-61376c81e159</Key>\r\n    <Node>\r\n     
+    <Id>4791189a-9fe4-4ff3-8fff-61376c81e159</Id>\r\n      <Name>FollowIntruder</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>b978a684-5b82-4cee-8e7f-094166c6a4bb</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Key>\r\n   
+    <Node>\r\n      <Id>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Id>\r\n      <Name>BTSequence</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$composite/BTSequence</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>-279|280||0</Position>\r\n      <StaticIn
+    Count=\"6\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>TopmostDecorator</Id>\r\n          <Name>TopmostDecorator</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>CurrentChildIndex</Id>\r\n          <Name>CurrentChildIndex</Name>\r\n         
+    <Value Type=\"Quantum.BTDataIndex, quantum.code\">Quantum.BTDataIndex</Value>\r\n         
+    <Type>Quantum.BTDataIndex, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IsDynamic</Id>\r\n          <Name>IsDynamic</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n          <Type>@boolean</Type>\r\n         
+    <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"4\">\r\n        <Slot>\r\n          <Id>$out</Id>\r\n         
+    <Name>Out</Name>\r\n          <Value />\r\n          <Type>$link</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>$out0</Id>\r\n          <Name>Out0</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$out1</Id>\r\n          <Name>Out1</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$out3</Id>\r\n          <Name>Out3</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">2489521402717425130</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>4ab63dfc-d135-42f2-8730-b52127e71ed1</Key>\r\n   
+    <Node>\r\n      <Id>4ab63dfc-d135-42f2-8730-b52127e71ed1</Id>\r\n      <Name>WaitLeaf</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>243830ed-dde5-4559-92c4-2673f5e57b57</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|-5||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>4e52922e-3be6-4089-8f11-c435191758e5</Key>\r\n    <Node>\r\n      <Id>4e52922e-3be6-4089-8f11-c435191758e5</Id>\r\n     
+    <Name>WaitLeaf</Name>\r\n      <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$leaf/WaitLeaf</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>472|482||0</Position>\r\n      <StaticIn
+    Count=\"5\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Duration</Id>\r\n          <Name>Duration</Name>\r\n         
+    <Value Type=\"Photon.Deterministic.FP, PhotonDeterministic\">131072</Value>\r\n         
+    <Type>Photon.Deterministic.FP, PhotonDeterministic</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>EndTimeIndex</Id>\r\n          <Name>EndTimeIndex</Name>\r\n         
+    <Value Type=\"Quantum.BTDataIndex, quantum.code\">Quantum.BTDataIndex</Value>\r\n         
+    <Type>Quantum.BTDataIndex, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"1\">\r\n        <Data>\r\n          <Name>Guid</Name>\r\n         
+    <Value Type=\"System.Int64, mscorlib\">741146582059223069</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>6b4b94a6-4644-4dd1-814f-1de35746e6ea</Key>\r\n    <Node>\r\n     
+    <Id>6b4b94a6-4644-4dd1-814f-1de35746e6ea</Id>\r\n      <Name>BlackboardVar</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$blackboardVarData</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>8</Flags>\r\n      <Position>34|363||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"8\">\r\n        <Data>\r\n          <Name>$default</Name>\r\n         
+    <Value Type=\"Quantum.EntityRef, quantum.core\">E.00000.000-</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n        <Data>\r\n          <Name>$hasDefault</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n        </Data>\r\n        <Data>\r\n         
+    <Name>True</Name>\r\n          <Value />\r\n        </Data>\r\n        <Data>\r\n         
+    <Name>$bbType</Name>\r\n          <Value Type=\"@string\">EntityRef</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name>Boolean</Name>\r\n          <Value
+    />\r\n        </Data>\r\n        <Data>\r\n          <Name>$varId</Name>\r\n         
+    <Value Type=\"@string\">d4990101-0612-4163-9efb-48613530236d</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>7715e10a-0d08-43c9-b98d-f6667c7031cf</Key>\r\n    <Node>\r\n     
+    <Id>7715e10a-0d08-43c9-b98d-f6667c7031cf</Id>\r\n      <Name>FindCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>c5f122eb-b3bc-4db0-a6fb-ce0dabe31d98</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>7868d112-f2e9-4769-a204-d7bf5a8df073</Key>\r\n   
+    <Node>\r\n      <Id>7868d112-f2e9-4769-a204-d7bf5a8df073</Id>\r\n      <Name>DebugLeaf</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>e3c0f638-b173-42d8-adb5-621a2a0432dc</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|225||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>7e923a00-a6e4-4709-82fe-9be467eb97eb</Key>\r\n   
+    <Node>\r\n      <Id>7e923a00-a6e4-4709-82fe-9be467eb97eb</Id>\r\n      <Name>IntruderRef</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>b978a684-5b82-4cee-8e7f-094166c6a4bb</Graph>\r\n     
+    <Parent>$blackboardRef</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>111|263||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"2\">\r\n        <Slot>\r\n         
+    <Id>$keyOut</Id>\r\n          <Name>Key</Name>\r\n          <Value />\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$valueOut</Id>\r\n          <Name>Value</Name>\r\n         
+    <Value />\r\n          <Type>Quantum.EntityRef, quantum.core</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"2\">\r\n        <Data>\r\n          <Name>$varId</Name>\r\n         
+    <Value Type=\"@string\">d4990101-0612-4163-9efb-48613530236d</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>8071d502-d806-499e-857e-1fef1bc3e825</Key>\r\n    <Node>\r\n     
+    <Id>8071d502-d806-499e-857e-1fef1bc3e825</Id>\r\n      <Name>BTSelector</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>87b6226f-0cff-4656-a7cc-2060cf5a7275</Key>\r\n   
+    <Node>\r\n      <Id>87b6226f-0cff-4656-a7cc-2060cf5a7275</Id>\r\n      <Name>BTSelector</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>89414f6a-7ab0-4e3c-857d-128b959bb07f</Key>\r\n    <Node>\r\n      <Id>89414f6a-7ab0-4e3c-857d-128b959bb07f</Id>\r\n     
+    <Name>SeekIntruder</Name>\r\n      <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$service/SeekIntruder</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>186|11||0</Position>\r\n      <StaticIn Count=\"5\">\r\n       
+    <Slot>\r\n          <Id>$exec</Id>\r\n          <Name></Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IntruderRef</Id>\r\n          <Name>IntruderRef</Name>\r\n         
+    <Value Type=\"Quantum.AIBlackboardValueKey, quantum.code\">Quantum.AIBlackboardValueKey</Value>\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IntervalInSec</Id>\r\n          <Name>IntervalInSec</Name>\r\n         
+    <Value Type=\"Photon.Deterministic.FP, PhotonDeterministic\">32768</Value>\r\n         
+    <Type>Photon.Deterministic.FP, PhotonDeterministic</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>RunOnEnter</Id>\r\n          <Name>RunOnEnter</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n          <Type>@boolean</Type>\r\n         
+    <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n         
+    <Value Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n         
+    <Mode>In</Mode>\r\n          <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticIn>\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$exec</Id>\r\n          <Name></Name>\r\n          <Value />\r\n         
+    <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n      </StaticOut>\r\n     
+    <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n        <Data>\r\n         
+    <Name>Guid</Name>\r\n          <Value Type=\"System.Int64, mscorlib\">2532411800575311476</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>894c364b-0c9f-4def-9150-12c6c8af67b9</Key>\r\n    <Node>\r\n     
+    <Id>894c364b-0c9f-4def-9150-12c6c8af67b9</Id>\r\n      <Name>IntruderRef</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$blackboardRef</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>110|259||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"2\">\r\n        <Slot>\r\n         
+    <Id>$keyOut</Id>\r\n          <Name>Key</Name>\r\n          <Value />\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$valueOut</Id>\r\n          <Name>Value</Name>\r\n         
+    <Value />\r\n          <Type>Quantum.EntityRef, quantum.core</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"2\">\r\n        <Data>\r\n          <Name>$varId</Name>\r\n         
+    <Value Type=\"@string\">d4990101-0612-4163-9efb-48613530236d</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>8d5df4f7-9b52-4c40-9a85-b2c6578bee66</Key>\r\n    <Node>\r\n     
+    <Id>8d5df4f7-9b52-4c40-9a85-b2c6578bee66</Id>\r\n      <Name>IntruderRef</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$blackboardRef</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>0</Flags>\r\n      <Position>94|35||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"2\">\r\n        <Slot>\r\n          <Id>$keyOut</Id>\r\n         
+    <Name>Key</Name>\r\n          <Value />\r\n          <Type>Quantum.AIBlackboardValueKey,
+    quantum.code</Type>\r\n          <Mode>Out</Mode>\r\n          <Flags>2</Flags>\r\n         
+    <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n        <Slot>\r\n         
+    <Id>$valueOut</Id>\r\n          <Name>Value</Name>\r\n          <Value />\r\n         
+    <Type>Quantum.EntityRef, quantum.core</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>2</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"2\">\r\n       
+    <Data>\r\n          <Name>$varId</Name>\r\n          <Value Type=\"@string\">d4990101-0612-4163-9efb-48613530236d</Value>\r\n       
+    </Data>\r\n        <Data>\r\n          <Name></Name>\r\n          <Value />\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>91f04be5-11af-47a9-b5ad-3865416f7409</Key>\r\n    <Node>\r\n     
+    <Id>91f04be5-11af-47a9-b5ad-3865416f7409</Id>\r\n      <Name>DeliverCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>c88139d3-edc3-4227-97ca-4cf29d4384bc</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>92b67277-2439-404c-93b7-529942efbbf4</Key>\r\n    <Node>\r\n      <Id>92b67277-2439-404c-93b7-529942efbbf4</Id>\r\n     
+    <Name>BTSequence</Name>\r\n      <Comment></Comment>\r\n      <Graph>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|-5||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Key>\r\n    <Node>\r\n      <Id>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Id>\r\n     
+    <Name>BTSequence</Name>\r\n      <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$composite/BTSequence</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>326|294||0</Position>\r\n      <StaticIn
+    Count=\"6\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>TopmostDecorator</Id>\r\n          <Name>TopmostDecorator</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>CurrentChildIndex</Id>\r\n          <Name>CurrentChildIndex</Name>\r\n         
+    <Value Type=\"Quantum.BTDataIndex, quantum.code\">Quantum.BTDataIndex</Value>\r\n         
+    <Type>Quantum.BTDataIndex, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IsDynamic</Id>\r\n          <Name>IsDynamic</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n          <Type>@boolean</Type>\r\n         
+    <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"3\">\r\n        <Slot>\r\n          <Id>$out</Id>\r\n         
+    <Name>Out</Name>\r\n          <Value />\r\n          <Type>$link</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>$out0</Id>\r\n          <Name>Out0</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$out1</Id>\r\n          <Name>Out1</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">1336571502694835023</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Key>\r\n   
+    <Node>\r\n      <Id>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Id>\r\n      <Name>BTSelector</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$composite/BTSelector</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>-33|109||0</Position>\r\n      <StaticIn
+    Count=\"6\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>TopmostDecorator</Id>\r\n          <Name>TopmostDecorator</Name>\r\n         
+    <Value Type=\"Quantum.AssetRefBTNode, quantum.code\">Id: [0000000000000000]</Value>\r\n         
+    <Type>Quantum.AssetRefBTNode, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>CurrentChildIndex</Id>\r\n          <Name>CurrentChildIndex</Name>\r\n         
+    <Value Type=\"Quantum.BTDataIndex, quantum.code\">Quantum.BTDataIndex</Value>\r\n         
+    <Type>Quantum.BTDataIndex, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IsDynamic</Id>\r\n          <Name>IsDynamic</Name>\r\n         
+    <Value Type=\"@boolean\">False</Value>\r\n          <Type>@boolean</Type>\r\n         
+    <Mode>In</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"3\">\r\n        <Slot>\r\n          <Id>$out</Id>\r\n         
+    <Name>Out</Name>\r\n          <Value />\r\n          <Type>$link</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n        <Slot>\r\n          <Id>$out1</Id>\r\n          <Name>Out1</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>$out0</Id>\r\n          <Name>Out0</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"1\">\r\n       
+    <Data>\r\n          <Name>Guid</Name>\r\n          <Value Type=\"System.Int64,
+    mscorlib\">408209697461276551</Value>\r\n        </Data>\r\n      </Data>\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>a9b05239-e19b-4b6b-b649-eadd7c92c58a</Key>\r\n   
+    <Node>\r\n      <Id>a9b05239-e19b-4b6b-b649-eadd7c92c58a</Id>\r\n      <Name>PickupCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>3bef7ffd-db33-487c-acaf-f894c4310eb1</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>b7da5f7b-d13d-44ad-8998-bb937ae83d29</Key>\r\n    <Node>\r\n      <Id>b7da5f7b-d13d-44ad-8998-bb937ae83d29</Id>\r\n     
+    <Name>WaitLeaf</Name>\r\n      <Comment></Comment>\r\n      <Graph>4e52922e-3be6-4089-8f11-c435191758e5</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>b81cf3b6-7b11-4208-9e13-e7098741a359</Key>\r\n   
+    <Node>\r\n      <Id>b81cf3b6-7b11-4208-9e13-e7098741a359</Id>\r\n      <Name>BTSelector</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>8f8b2328-1d90-4657-9f72-c776f7fe966b</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>b978a684-5b82-4cee-8e7f-094166c6a4bb</Key>\r\n    <Node>\r\n      <Id>b978a684-5b82-4cee-8e7f-094166c6a4bb</Id>\r\n     
+    <Name>FollowIntruder</Name>\r\n      <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$leaf/FollowIntruder</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>188|480||0</Position>\r\n      <StaticIn
+    Count=\"4\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>IntruderRef</Id>\r\n          <Name>IntruderRef</Name>\r\n         
+    <Value Type=\"Quantum.AIBlackboardValueKey, quantum.code\">Quantum.AIBlackboardValueKey</Value>\r\n         
+    <Type>Quantum.AIBlackboardValueKey, quantum.code</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"1\">\r\n        <Data>\r\n          <Name>Guid</Name>\r\n         
+    <Value Type=\"System.Int64, mscorlib\">2793730492412776783</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>c138f710-0dfa-4830-9f0a-471787c2463e</Key>\r\n    <Node>\r\n     
+    <Id>c138f710-0dfa-4830-9f0a-471787c2463e</Id>\r\n      <Name>BTSequence</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|225||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>c5f122eb-b3bc-4db0-a6fb-ce0dabe31d98</Key>\r\n   
+    <Node>\r\n      <Id>c5f122eb-b3bc-4db0-a6fb-ce0dabe31d98</Id>\r\n      <Name>FindCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$leaf/FindCollectible</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>-464|556||0</Position>\r\n      <StaticIn
+    Count=\"3\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"1\">\r\n        <Data>\r\n          <Name>Guid</Name>\r\n         
+    <Value Type=\"System.Int64, mscorlib\">3227345688627223671</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>c88139d3-edc3-4227-97ca-4cf29d4384bc</Key>\r\n    <Node>\r\n     
+    <Id>c88139d3-edc3-4227-97ca-4cf29d4384bc</Id>\r\n      <Name>DeliverCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Graph>\r\n     
+    <Parent>$leaf/DeliverCollectible</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>32</Flags>\r\n      <Position>-91|562||0</Position>\r\n      <StaticIn
+    Count=\"3\">\r\n        <Slot>\r\n          <Id>$in</Id>\r\n          <Name>In</Name>\r\n         
+    <Value />\r\n          <Type>$link</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Label</Id>\r\n          <Name>Label</Name>\r\n         
+    <Value />\r\n          <Type>@string</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n       
+    <Slot>\r\n          <Id>Id</Id>\r\n          <Name>Id</Name>\r\n          <Value
+    Type=\"@int32\">0</Value>\r\n          <Type>@int32</Type>\r\n          <Mode>In</Mode>\r\n         
+    <Flags>512</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticIn>\r\n      <StaticOut Count=\"0\" />\r\n      <Groups Count=\"0\" />\r\n     
+    <Data Count=\"1\">\r\n        <Data>\r\n          <Name>Guid</Name>\r\n         
+    <Value Type=\"System.Int64, mscorlib\">4519541225221507308</Value>\r\n       
+    </Data>\r\n      </Data>\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n   
+    </Node>\r\n    <Key>cef95d98-737a-4a79-ba64-32e984311925</Key>\r\n    <Node>\r\n     
+    <Id>cef95d98-737a-4a79-ba64-32e984311925</Id>\r\n      <Name>FindCollectible</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>c5f122eb-b3bc-4db0-a6fb-ce0dabe31d98</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>daf28c58-8b35-4c9a-ad47-fdfbb56be869</Key>\r\n    <Node>\r\n      <Id>daf28c58-8b35-4c9a-ad47-fdfbb56be869</Id>\r\n     
+    <Name>WaitLeaf</Name>\r\n      <Comment></Comment>\r\n      <Graph>243830ed-dde5-4559-92c4-2673f5e57b57</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>0|225||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>dc7f8d32-f9c6-417c-8f7f-37b4f7ec0bd8</Key>\r\n   
+    <Node>\r\n      <Id>dc7f8d32-f9c6-417c-8f7f-37b4f7ec0bd8</Id>\r\n      <Name>BTSequence</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>e535e819-8e3f-417f-8f07-23b798f919fc</Key>\r\n   
+    <Node>\r\n      <Id>e535e819-8e3f-417f-8f07-23b798f919fc</Id>\r\n      <Name>BTSequence</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n   
+    <Key>ebe643e4-4778-4761-a408-99d6c8caec3c</Key>\r\n    <Node>\r\n      <Id>ebe643e4-4778-4761-a408-99d6c8caec3c</Id>\r\n     
+    <Name>PickupCollectible</Name>\r\n      <Comment></Comment>\r\n      <Graph>3bef7ffd-db33-487c-acaf-f894c4310eb1</Graph>\r\n     
+    <Parent>$decoratorsRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|233||0</Position>\r\n      <StaticIn
+    Count=\"0\" />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n         
+    <Id>$decoratorsList</Id>\r\n          <Name>Decorators</Name>\r\n          <Value
+    />\r\n          <Type>$exec</Type>\r\n          <Mode>Out</Mode>\r\n         
+    <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n        </Slot>\r\n     
+    </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data Count=\"0\" />\r\n     
+    <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n    <Key>ff77807a-160e-4cc3-9b52-a6f4e5b8d81d</Key>\r\n   
+    <Node>\r\n      <Id>ff77807a-160e-4cc3-9b52-a6f4e5b8d81d</Id>\r\n      <Name>WaitLeaf</Name>\r\n     
+    <Comment></Comment>\r\n      <Graph>4e52922e-3be6-4089-8f11-c435191758e5</Graph>\r\n     
+    <Parent>$servicesRoot</Parent>\r\n      <DebugIndex>-1</DebugIndex>\r\n     
+    <Flags>129</Flags>\r\n      <Position>4|3||0</Position>\r\n      <StaticIn Count=\"0\"
+    />\r\n      <StaticOut Count=\"1\">\r\n        <Slot>\r\n          <Id>$servicesList</Id>\r\n         
+    <Name>Services</Name>\r\n          <Value />\r\n          <Type>$exec</Type>\r\n         
+    <Mode>Out</Mode>\r\n          <Flags>0</Flags>\r\n          <TypeMode>Value</TypeMode>\r\n       
+    </Slot>\r\n      </StaticOut>\r\n      <Groups Count=\"0\" />\r\n      <Data
+    Count=\"0\" />\r\n      <ChildrenStatesCount>0</ChildrenStatesCount>\r\n    </Node>\r\n 
+    </Nodes>\r\n  <Types Count=\"0\" />\r\n  <Links Count=\"16\">\r\n    <Link>\r\n     
+    <Id>b02e4bc4-8318-4c90-b0c5-965f2c4bc7d1</Id>\r\n      <FromNode>a2e26ce3-912a-439d-aa80-492cb48b6f1c</FromNode>\r\n     
+    <FromSlot>$out1</FromSlot>\r\n      <ToNode>9d1416b6-dd23-4cde-b963-8e5cbf24a135</ToNode>\r\n     
+    <ToSlot>$in</ToSlot>\r\n      <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>3e7835dc-6896-48da-a6b3-31c5df97b691</Id>\r\n     
+    <FromNode>9d1416b6-dd23-4cde-b963-8e5cbf24a135</FromNode>\r\n      <FromSlot>$out0</FromSlot>\r\n     
+    <ToNode>4e52922e-3be6-4089-8f11-c435191758e5</ToNode>\r\n      <ToSlot>$in</ToSlot>\r\n     
+    <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n   
+    <Link>\r\n      <Id>44137cc8-50c4-4bc2-9ce4-2d278e6f92e4</Id>\r\n      <FromNode>9d1416b6-dd23-4cde-b963-8e5cbf24a135</FromNode>\r\n     
+    <FromSlot>$out</FromSlot>\r\n      <ToNode>b978a684-5b82-4cee-8e7f-094166c6a4bb</ToNode>\r\n     
+    <ToSlot>$in</ToSlot>\r\n      <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>bbfe2718-f808-4c14-9474-590414a47fb0</Id>\r\n     
+    <FromNode>e535e819-8e3f-417f-8f07-23b798f919fc</FromNode>\r\n      <FromSlot>$servicesList</FromSlot>\r\n     
+    <ToNode>89414f6a-7ab0-4e3c-857d-128b959bb07f</ToNode>\r\n      <ToSlot>$exec</ToSlot>\r\n     
+    <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n    <Link>\r\n     
+    <Id>7c5c3a41-0502-460e-8821-92705f16c04c</Id>\r\n      <FromNode>894c364b-0c9f-4def-9150-12c6c8af67b9</FromNode>\r\n     
+    <FromSlot>$keyOut</FromSlot>\r\n      <ToNode>1f83140c-d4a6-454b-bd8c-1704e8d09aef</ToNode>\r\n     
+    <ToSlot>IntruderRef</ToSlot>\r\n      <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>d8e92230-2eab-4e43-82ab-a013f896673b</Id>\r\n     
+    <FromNode>dc7f8d32-f9c6-417c-8f7f-37b4f7ec0bd8</FromNode>\r\n      <FromSlot>$decoratorsList</FromSlot>\r\n     
+    <ToNode>1f83140c-d4a6-454b-bd8c-1704e8d09aef</ToNode>\r\n      <ToSlot>$exec</ToSlot>\r\n     
+    <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n    <Link>\r\n     
+    <Id>2bfd5c2f-8bc8-45ec-98d4-b74accc5f0ed</Id>\r\n      <FromNode>ebe643e4-4778-4761-a408-99d6c8caec3c</FromNode>\r\n     
+    <FromSlot>$decoratorsList</FromSlot>\r\n      <ToNode>0e45af2b-4c19-40f5-b449-0a005df1ff3d</ToNode>\r\n     
+    <ToSlot>$exec</ToSlot>\r\n      <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>5795cf03-b935-4f56-8abc-3006beb32f2d</Id>\r\n     
+    <FromNode>2ee8dcfb-31e0-4997-b74a-b003f0bb4403</FromNode>\r\n      <FromSlot>$out</FromSlot>\r\n     
+    <ToNode>a2e26ce3-912a-439d-aa80-492cb48b6f1c</ToNode>\r\n      <ToSlot>$in</ToSlot>\r\n     
+    <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n   
+    <Link>\r\n      <Id>f2e4dc17-b799-41f2-8d00-33f4e9f2b7f2</Id>\r\n      <FromNode>7e923a00-a6e4-4709-82fe-9be467eb97eb</FromNode>\r\n     
+    <FromSlot>$keyOut</FromSlot>\r\n      <ToNode>08134de2-bcf0-4784-869c-6bd403490f3d</ToNode>\r\n     
+    <ToSlot>Target</ToSlot>\r\n      <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>0fe4a18f-5010-4d29-a000-75fd7f8a2d66</Id>\r\n     
+    <FromNode>8d5df4f7-9b52-4c40-9a85-b2c6578bee66</FromNode>\r\n      <FromSlot>$keyOut</FromSlot>\r\n     
+    <ToNode>89414f6a-7ab0-4e3c-857d-128b959bb07f</ToNode>\r\n      <ToSlot>IntruderRef</ToSlot>\r\n     
+    <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n    <Link>\r\n     
+    <Id>e13a20be-d769-43fb-8c5a-ea12f3b6cd85</Id>\r\n      <FromNode>4086065d-81e8-4226-a8ac-123b2993ae4d</FromNode>\r\n     
+    <FromSlot>$keyOut</FromSlot>\r\n      <ToNode>b978a684-5b82-4cee-8e7f-094166c6a4bb</ToNode>\r\n     
+    <ToSlot>IntruderRef</ToSlot>\r\n      <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>bc1db053-e095-41e2-bb91-01bfb5418a7d</Id>\r\n     
+    <FromNode>a2e26ce3-912a-439d-aa80-492cb48b6f1c</FromNode>\r\n      <FromSlot>$out</FromSlot>\r\n     
+    <ToNode>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</ToNode>\r\n      <ToSlot>$in</ToSlot>\r\n     
+    <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n   
+    <Link>\r\n      <Id>e971586c-e0fa-41f8-94e2-d34b8e8e7966</Id>\r\n      <FromNode>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</FromNode>\r\n     
+    <FromSlot>$out</FromSlot>\r\n      <ToNode>c5f122eb-b3bc-4db0-a6fb-ce0dabe31d98</ToNode>\r\n     
+    <ToSlot>$in</ToSlot>\r\n      <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>eac3dd84-0bc2-4439-8ceb-4d26441b2fd4</Id>\r\n     
+    <FromNode>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</FromNode>\r\n      <FromSlot>$out0</FromSlot>\r\n     
+    <ToNode>3bef7ffd-db33-487c-acaf-f894c4310eb1</ToNode>\r\n      <ToSlot>$in</ToSlot>\r\n     
+    <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n   
+    <Link>\r\n      <Id>4e4ee2bf-bf43-4198-a215-8a497ff920fe</Id>\r\n      <FromNode>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</FromNode>\r\n     
+    <FromSlot>$out1</FromSlot>\r\n      <ToNode>c88139d3-edc3-4227-97ca-4cf29d4384bc</ToNode>\r\n     
+    <ToSlot>$in</ToSlot>\r\n      <Flags>14</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n   
+    </Link>\r\n    <Link>\r\n      <Id>85fae151-dc77-4d10-be58-b6ab3ef4bfea</Id>\r\n     
+    <FromNode>4791189a-9fe4-4ff3-8fff-61376c81e159</FromNode>\r\n      <FromSlot>$decoratorsList</FromSlot>\r\n     
+    <ToNode>08134de2-bcf0-4784-869c-6bd403490f3d</ToNode>\r\n      <ToSlot>$exec</ToSlot>\r\n     
+    <Flags>0</Flags>\r\n      <DebugIndex>-1</DebugIndex>\r\n    </Link>\r\n  </Links>\r\n 
+    <Data Count=\"0\" />\r\n  <PanelData Count=\"1\">\r\n    <Key>$statemachine/$blackboard/$variables</Key>\r\n   
+    <PanelData>\r\n      <Id>$statemachine/$blackboard/$variables</Id>\r\n      <Expanded>true</Expanded>\r\n   
+    </PanelData>\r\n  </PanelData>\r\n  <GraphData Count=\"9\">\r\n    <Key>243830ed-dde5-4559-92c4-2673f5e57b57</Key>\r\n   
+    <GraphData>\r\n      <Id>243830ed-dde5-4559-92c4-2673f5e57b57</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>765|181||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>3bef7ffd-db33-487c-acaf-f894c4310eb1</Key>\r\n    <GraphData>\r\n     
+    <Id>3bef7ffd-db33-487c-acaf-f894c4310eb1</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>157|30||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Key>\r\n    <GraphData>\r\n     
+    <Id>49c2d6a3-5de6-4629-819e-4ef5bd9455e4</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>139|186||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>4e52922e-3be6-4089-8f11-c435191758e5</Key>\r\n    <GraphData>\r\n     
+    <Id>4e52922e-3be6-4089-8f11-c435191758e5</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>143|123||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Key>\r\n    <GraphData>\r\n     
+    <Id>9d1416b6-dd23-4cde-b963-8e5cbf24a135</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>230|-12||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Key>\r\n    <GraphData>\r\n     
+    <Id>a2e26ce3-912a-439d-aa80-492cb48b6f1c</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>578|339||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>b978a684-5b82-4cee-8e7f-094166c6a4bb</Key>\r\n    <GraphData>\r\n     
+    <Id>b978a684-5b82-4cee-8e7f-094166c6a4bb</Id>\r\n      <ZoomLevel>7</ZoomLevel>\r\n     
+    <ZoomOffset>66|97||0</ZoomOffset>\r\n      <PanOffset>-26|-35||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>e3c0f638-b173-42d8-adb5-621a2a0432dc</Key>\r\n    <GraphData>\r\n     
+    <Id>e3c0f638-b173-42d8-adb5-621a2a0432dc</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>0|0||0</ZoomOffset>\r\n      <PanOffset>260|-12||0</PanOffset>\r\n   
+    </GraphData>\r\n    <Key>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Key>\r\n    <GraphData>\r\n     
+    <Id>ef21cf5c-7eb6-468a-9f8b-91d0ed59450c</Id>\r\n      <ZoomLevel>1</ZoomLevel>\r\n     
+    <ZoomOffset>1359|1419||0</ZoomOffset>\r\n      <PanOffset>-730|-1375||0</PanOffset>\r\n   
+    </GraphData>\r\n  </GraphData>\r\n  <Tracks Count=\"0\" />\r\n</Document>"
+  DocumentType: $bt
+  DocumentId: ef21cf5c-7eb6-468a-9f8b-91d0ed59450c
+  DocumentNameOverride: 
+  History: []
+  LastCompiledHistoryID: d255d0df-1670-4149-b96b-57b4e1bd7a60
+  IsOutdated: 0
