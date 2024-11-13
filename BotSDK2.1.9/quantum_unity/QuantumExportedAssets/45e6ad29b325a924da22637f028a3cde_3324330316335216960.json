@@ -1,0 +1,21 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TimerDecision_vUVi86K59k6jkOE",
+        "Guid": {
+            "Value": 764732636311929598
+        }
+    },
+    "Label": "",
+    "TimeToTrueState": {
+        "Source": 2,
+        "Key": "RestDuration",
+        "DefaultValue": {
+            "RawValue": 131072
+        },
+        "FunctionRef": {
+            "Id": {
+                "Value": 0
+            }
+        }
+    }
+}

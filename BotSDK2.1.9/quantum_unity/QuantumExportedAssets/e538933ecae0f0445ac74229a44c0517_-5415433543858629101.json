@@ -1,0 +1,32 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_t6baBMwuh0S7v15",
+        "Guid": {
+            "Value": 1336571502694835023
+        }
+    },
+    "Label": "BTSequence",
+    "Id": 2,
+    "Children": [
+        {
+            "Id": {
+                "Value": 3263858815880111754
+            }
+        },
+        {
+            "Id": {
+                "Value": 741146582059223069
+            }
+        }
+    ],
+    "Services": [],
+    "TopmostDecorator": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "CurrentChildIndex": {
+        "Index": 1
+    },
+    "IsDynamic": false
+}

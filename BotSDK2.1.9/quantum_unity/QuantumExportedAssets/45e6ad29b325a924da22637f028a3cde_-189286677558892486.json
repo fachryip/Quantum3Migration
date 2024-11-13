@@ -1,0 +1,22 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|SetBlackboardInt_GbCKojuh9ku23Sj",
+        "Guid": {
+            "Value": 3834285535646523217
+        }
+    },
+    "Label": "",
+    "Key": {
+        "Key": "TokensReturned"
+    },
+    "Value": {
+        "Source": 1,
+        "Key": "",
+        "DefaultValue": 0,
+        "FunctionRef": {
+            "Id": {
+                "Value": 0
+            }
+        }
+    }
+}

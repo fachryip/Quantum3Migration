@@ -1,0 +1,15 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboardInitializer",
+        "Guid": {
+            "Value": 4595210268058214791
+        }
+    },
+    "ReportMissingEntries": true,
+    "AIBlackboard": {
+        "Id": {
+            "Value": 480995672909682070
+        }
+    },
+    "InitialValues": []
+}

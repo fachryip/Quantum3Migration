@@ -1,0 +1,22 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|IncreaseBlackboardInt_uWpLUxMqVke5pqk",
+        "Guid": {
+            "Value": 313021203496315025
+        }
+    },
+    "Label": "",
+    "Key": {
+        "Key": "TokensReturned"
+    },
+    "IncrementAmount": {
+        "Source": 1,
+        "Key": "",
+        "DefaultValue": 1,
+        "FunctionRef": {
+            "Id": {
+                "Value": 0
+            }
+        }
+    }
+}

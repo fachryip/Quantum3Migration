@@ -1,0 +1,16 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|SeekIntruder_PPuhsdE-6USthFr",
+        "Guid": {
+            "Value": 2532411800575311476
+        }
+    },
+    "IntervalInSec": {
+        "RawValue": 32768
+    },
+    "RunOnEnter": false,
+    "Id": 0,
+    "IntruderRef": {
+        "Key": "IntruderRef"
+    }
+}

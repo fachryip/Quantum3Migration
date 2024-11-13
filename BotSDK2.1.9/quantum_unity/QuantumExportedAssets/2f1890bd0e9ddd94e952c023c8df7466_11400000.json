@@ -1,0 +1,21 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboard",
+        "Guid": {
+            "Value": 480995672909682070
+        }
+    },
+    "Entries": [
+        {
+            "Type": 2,
+            "Key": {
+                "Key": "TokensReturned"
+            }
+        }
+    ],
+    "InitializerRef": {
+        "Id": {
+            "Value": 0
+        }
+    }
+}

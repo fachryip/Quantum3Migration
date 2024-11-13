@@ -1,0 +1,66 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Necromancer",
+        "Guid": {
+            "Value": 1069657478166035983
+        }
+    },
+    "Offset": {
+        "X": {
+            "RawValue": 0
+        },
+        "Y": {
+            "RawValue": 49152
+        },
+        "Z": {
+            "RawValue": 0
+        }
+    },
+    "Radius": {
+        "RawValue": 49152
+    },
+    "MaxPenetration": {
+        "RawValue": 6553
+    },
+    "PenetrationCorrection": {
+        "RawValue": 32768
+    },
+    "Extent": {
+        "RawValue": 0
+    },
+    "MaxContacts": 4,
+    "LayerMask": {
+        "BitMask": 311
+    },
+    "UseManifoldNormal": false,
+    "AirControl": false,
+    "Acceleration": {
+        "RawValue": 655360
+    },
+    "Braking": {
+        "RawValue": 655360
+    },
+    "BaseJumpImpulse": {
+        "RawValue": 131072
+    },
+    "MaxSpeed": {
+        "RawValue": 117964
+    },
+    "Gravity": {
+        "X": {
+            "RawValue": 0
+        },
+        "Y": {
+            "RawValue": -655360
+        },
+        "Z": {
+            "RawValue": 0
+        }
+    },
+    "MaxSlope": {
+        "RawValue": 3932160
+    },
+    "MaxSlopeSpeed": {
+        "RawValue": 327680
+    }
+}

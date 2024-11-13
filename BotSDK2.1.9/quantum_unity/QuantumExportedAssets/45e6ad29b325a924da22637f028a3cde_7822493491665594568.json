@@ -1,0 +1,33 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_JOqYLobRykiq_NT",
+        "Guid": {
+            "Value": 1173108510516828631
+        }
+    },
+    "Label": "Stop",
+    "Index": 2,
+    "OnUpdateLinks": [],
+    "OnEnterLinks": [
+        {
+            "Id": {
+                "Value": 2526794132712080256
+            }
+        }
+    ],
+    "OnExitLinks": [
+        {
+            "Id": {
+                "Value": 1370203551637859273
+            }
+        }
+    ],
+    "Transitions": [],
+    "ChildrenLinks": [],
+    "ParentLink": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "Level": 0
+}
