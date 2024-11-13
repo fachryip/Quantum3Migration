@@ -16,13 +16,12 @@ MonoBehaviour:
     PlayerCount: 0
     ChecksumCrossPlatformDeterminism: 0
     LockstepSimulation: 0
-    AggressiveSendMode: 0
+    InputDeltaCompression: 1
     UpdateFPS: 60
     ChecksumInterval: 60
     RollbackWindow: 60
-    InputPacking: 2
     InputHardTolerance: 8
-    InputRedundancyStagger: 3
+    InputRedundancy: 3
     InputRepeatMaxDistance: 10
     SessionStartTimeout: 1
     TimeCorrectionRate: 4
@@ -34,5 +33,4 @@ MonoBehaviour:
     InputDelayMin: 0
     InputDelayMax: 60
     InputDelayPingStart: 100
-    InputFixedSizeEnabled: 0
     InputFixedSize: 0
