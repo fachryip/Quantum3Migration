@@ -12,12 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6698074c9441a42aa63d88075b3ebb, type: 3}
   m_Name: DeliverCollectibleAction_C6cjjA0pCkeCtT4
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|DeliverCollectibleAction_C6cjjA0pCkeCtT4
-      Guid:
-        Value: 226970481612988451
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-7375665134638831204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,12 +25,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c421a279153503418dbdc1afc0d4366, type: 3}
   m_Name: PickupCollectibleAction_uNQqgkOcfkmKzvu
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|PickupCollectibleAction_uNQqgkOcfkmKzvu
-      Guid:
-        Value: 2948202281121739668
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-4686283463912333725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,18 +35,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679d691cddcd5134fa4c5e2d3642b12d, type: 3}
+  m_Script: {fileID: 1084331888, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: HFSMNotDecision_5EHfQKf76EKTs_B
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_5EHfQKf76EKTs_B
-      Guid:
-        Value: 26044280555436397
-    Label: 
-    Decisions:
-    - Id:
-        Value: 2394344937181159777
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Decisions: []
 --- !u!114 &-4653277486448573144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,18 +53,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679d691cddcd5134fa4c5e2d3642b12d, type: 3}
+  m_Script: {fileID: 1084331888, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: HFSMNotDecision_5v-dSmQDcE6YIKn
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_5v-dSmQDcE6YIKn
-      Guid:
-        Value: 833033628281870387
-    Label: 
-    Decisions:
-    - Id:
-        Value: 4544504762961226659
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Decisions: []
 --- !u!114 &-4423960895944166275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,12 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2618f8faf5fa84bae2a621719b5c5b, type: 3}
   m_Name: VerifyLoadedDecision_Dgr5QLgAqE6kkuX
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|VerifyLoadedDecision_Dgr5QLgAqE6kkuX
-      Guid:
-        Value: 2394344937181159777
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-3587763231714166401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,16 +84,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e23eafcf98b985e4ba099f5cc62ed2ac, type: 3}
+  m_Script: {fileID: -1225980562, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: DebugAction_16ctiwUnTEG5CYb
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|DebugAction_16ctiwUnTEG5CYb
-      Guid:
-        Value: 1370203551637859273
-    Label: 
-    Message: 
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Message: 
 --- !u!114 &-2691933675164787452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,25 +102,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ccdd5b4caba74349928658f89ec59c6, type: 3}
+  m_Script: {fileID: 694471831, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: CheckBlackboardInt_ABGOZ-JH8UmELeG
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckBlackboardInt_ABGOZ-JH8UmELeG
-      Guid:
-        Value: 4416348472217903229
-    Label: 
-    Key:
-      Key: TokensReturned
-    Comparison: 1
-    DesiredValue:
-      Source: 1
-      Key: 
-      DefaultValue: 3
-      FunctionRef:
-        Id:
-          Value: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Key:
+    Key: 
+  Comparison: 2
+  DesiredValue:
+    Source: 1
+    Key: 
+    DefaultValue: 1
+    FunctionRef:
+      Id:
+        Value: 0
 --- !u!114 &-1793875303667410251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,49 +129,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State_NhnDY0q9CUmKAFx
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_NhnDY0q9CUmKAFx
-      Guid:
-        Value: 4367626473759101840
-    Label: SeekPickup
-    Index: 4
-    OnUpdateLinks:
-    - Id:
-        Value: 2948202281121739668
-    OnEnterLinks: []
-    OnExitLinks: []
-    Transitions:
-    - Id: 554e7eca-7467-4b10-9abf-a9cb900f4dc4
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 4025997051880897575
-      StateLink:
-        Id:
-          Value: 3527842348051315155
-      TransitionSetLink:
-        Id:
-          Value: 0
-    - Id: b95a005c-666f-4068-9351-ca634bc81ddc
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 3384067041136242142
-      StateLink:
-        Id:
-          Value: 415182397265773810
-      TransitionSetLink:
-        Id:
-          Value: 0
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &-1529076329643384849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,12 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1720803a7aca2f24181513067bce977b, type: 3}
   m_Name: AnyCollectibleExist_XaE9esfM_0e78U2
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|AnyCollectibleExist_XaE9esfM_0e78U2
-      Guid:
-        Value: 4544504762961226659
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-1503967022499882340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,24 +169,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d75e36ac35de1c4b963a2677b30a390, type: 3}
+  m_Script: {fileID: 1723218811, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: IncreaseBlackboardInt_uWpLUxMqVke5pqk
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|IncreaseBlackboardInt_uWpLUxMqVke5pqk
-      Guid:
-        Value: 313021203496315025
-    Label: 
-    Key:
-      Key: TokensReturned
-    IncrementAmount:
-      Source: 1
-      Key: 
-      DefaultValue: 1
-      FunctionRef:
-        Id:
-          Value: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Key:
+    Key: 
+  IncrementAmount:
+    Source: 1
+    Key: 
+    DefaultValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
 --- !u!114 &-1396108997318729249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,25 +195,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ccdd5b4caba74349928658f89ec59c6, type: 3}
+  m_Script: {fileID: 694471831, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: CheckBlackboardInt_ZYLszcHckkCwKTO
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckBlackboardInt_ZYLszcHckkCwKTO
-      Guid:
-        Value: 2791491756957529163
-    Label: 
-    Key:
-      Key: TokensReturned
-    Comparison: 3
-    DesiredValue:
-      Source: 1
-      Key: 
-      DefaultValue: 3
-      FunctionRef:
-        Id:
-          Value: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Key:
+    Key: 
+  Comparison: 2
+  DesiredValue:
+    Source: 1
+    Key: 
+    DefaultValue: 1
+    FunctionRef:
+      Id:
+        Value: 0
 --- !u!114 &-1259500329651339706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,12 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e0a96b8f5b1d004c9be70207e65afb5, type: 3}
   m_Name: TargetExistDecision_aq8X51Jt3kWMt7O
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TargetExistDecision_aq8X51Jt3kWMt7O
-      Guid:
-        Value: 1644322353413198884
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-1221943559527844063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,12 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c38e417d47734645b53cd108fd38aa5, type: 3}
   m_Name: StopMovingAction_DKI0NHQCVUOs7nV
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|StopMovingAction_DKI0NHQCVUOs7nV
-      Guid:
-        Value: 490120032023811416
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &-562751218818555008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,47 +248,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State_ToySFst9HEejmIN
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_ToySFst9HEejmIN
-      Guid:
-        Value: 26529799081000346
-    Label: CheckLimitReached
-    Index: 3
-    OnUpdateLinks: []
-    OnEnterLinks: []
-    OnExitLinks: []
-    Transitions:
-    - Id: 3ae9c590-8e29-4077-abe4-c6902b6ee65f
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 4416348472217903229
-      StateLink:
-        Id:
-          Value: 415182397265773810
-      TransitionSetLink:
-        Id:
-          Value: 0
-    - Id: 294e63a9-b521-4b20-accf-2aafb2fbc700
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 2791491756957529163
-      StateLink:
-        Id:
-          Value: 833653448371046745
-      TransitionSetLink:
-        Id:
-          Value: 0
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &-395143967836126924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,49 +275,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State_U9xYfLj0E0axZJd
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_U9xYfLj0E0axZJd
-      Guid:
-        Value: 415182397265773810
-    Label: Choose
-    Index: 1
-    OnUpdateLinks: []
-    OnEnterLinks:
-    - Id:
-        Value: 894074335824034712
-    OnExitLinks: []
-    Transitions:
-    - Id: 657fe27f-1bdc-48e7-a0bd-dfabc5e48824
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 833033628281870387
-      StateLink:
-        Id:
-          Value: 1173108510516828631
-      TransitionSetLink:
-        Id:
-          Value: 0
-    - Id: 7a323688-7a9c-424b-9974-b53831466034
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 2470029992444953340
-      StateLink:
-        Id:
-          Value: 4367626473759101840
-      TransitionSetLink:
-        Id:
-          Value: 0
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &-189286677558892486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,24 +302,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 321ec78bf5a5c884f82fb797a962d94c, type: 3}
+  m_Script: {fileID: -42235220, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: SetBlackboardInt_GbCKojuh9ku23Sj
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|SetBlackboardInt_GbCKojuh9ku23Sj
-      Guid:
-        Value: 3834285535646523217
-    Label: 
-    Key:
-      Key: TokensReturned
-    Value:
-      Source: 1
-      Key: 
-      DefaultValue: 0
-      FunctionRef:
-        Id:
-          Value: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Key:
+    Key: 
+  Value:
+    Source: 1
+    Key: 
+    DefaultValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,29 +328,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ce4f304dc8962642bd7f6fa13ebf9e9, type: 3}
+  m_Script: {fileID: 1727795870, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: LittleGuyHFSM
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM
-      Guid:
-        Value: 4323545359010604072
-    Label: LittleGuyHFSM
-    StatesLinks:
-    - Id:
-        Value: 415182397265773810
-    - Id:
-        Value: 3527842348051315155
-    - Id:
-        Value: 1173108510516828631
-    - Id:
-        Value: 26529799081000346
-    - Id:
-        Value: 4367626473759101840
-    - Id:
-        Value: 833653448371046745
-    EventsNames: []
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  StatesLinks: []
+  EventsNames: []
 --- !u!114 &2528056543990891845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,12 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2618f8faf5fa84bae2a621719b5c5b, type: 3}
   m_Name: VerifyLoadedDecision_vbjK8M1W5EyjzoW
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|VerifyLoadedDecision_vbjK8M1W5EyjzoW
-      Guid:
-        Value: 4025997051880897575
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &2879598367101246570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,40 +360,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State_ALf6F3KaCkejZzP
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_ALf6F3KaCkejZzP
-      Guid:
-        Value: 833653448371046745
-    Label: BreakTime
-    Index: 5
-    OnUpdateLinks: []
-    OnEnterLinks:
-    - Id:
-        Value: 3834285535646523217
-    - Id:
-        Value: 490120032023811416
-    OnExitLinks: []
-    Transitions:
-    - Id: e9b11a51-ad53-458e-b9e1-20e2b5e08f83
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 764732636311929598
-      StateLink:
-        Id:
-          Value: 415182397265773810
-      TransitionSetLink:
-        Id:
-          Value: 0
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &3324330316335216960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,23 +387,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faa5ef4700b5a3b479b223581a7be8da, type: 3}
+  m_Script: {fileID: 1627827125, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: TimerDecision_vUVi86K59k6jkOE
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TimerDecision_vUVi86K59k6jkOE
-      Guid:
-        Value: 764732636311929598
-    Label: 
-    TimeToTrueState:
-      Source: 2
-      Key: RestDuration
-      DefaultValue:
-        RawValue: 131072
-      FunctionRef:
-        Id:
-          Value: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  TimeToTrueState:
+    Source: 1
+    Key: 
+    DefaultValue:
+      RawValue: 196608
+    FunctionRef:
+      Id:
+        Value: 0
 --- !u!114 &3656245753528135479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,12 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c38e417d47734645b53cd108fd38aa5, type: 3}
   m_Name: StopMovingAction_lRaR2VOK20WbfU-
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|StopMovingAction_lRaR2VOK20WbfU-
-      Guid:
-        Value: 2526794132712080256
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &4090071795851817837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,15 +425,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49c6380e0912e4c4081e011ce2c7762f, type: 3}
+  m_Script: {fileID: 43192859, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: TrueDecision_4tgmmF8IPEqKGGY
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|TrueDecision_4tgmmF8IPEqKGGY
-      Guid:
-        Value: 2470029992444953340
-    Label: 
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
 --- !u!114 &5367871566362297516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,12 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b274abdeecfdf544091dfc79238bcf58, type: 3}
   m_Name: ChooseCollectibleAction_nDe2KdovJkqrDzZ
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|ChooseCollectibleAction_nDe2KdovJkqrDzZ
-      Guid:
-        Value: 894074335824034712
-    Label: 
+  Settings: {fileID: 0}
 --- !u!114 &5554809972817580977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,40 +455,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State__-gUZi1jiE2IBq9
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State__-gUZi1jiE2IBq9
-      Guid:
-        Value: 3527842348051315155
-    Label: DeliverPickup
-    Index: 0
-    OnUpdateLinks:
-    - Id:
-        Value: 226970481612988451
-    OnEnterLinks: []
-    OnExitLinks:
-    - Id:
-        Value: 313021203496315025
-    Transitions:
-    - Id: 9696f2d5-bd39-4fe2-904c-20d0d07a5ece
-      EventKey: 0
-      DecisionLink:
-        Id:
-          Value: 26044280555436397
-      StateLink:
-        Id:
-          Value: 26529799081000346
-      TransitionSetLink:
-        Id:
-          Value: 0
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &7822493491665594568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,29 +482,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541bd0589ab28d643b46befb0c6dea8c, type: 3}
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: State_JOqYLobRykiq_NT
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_JOqYLobRykiq_NT
-      Guid:
-        Value: 1173108510516828631
-    Label: Stop
-    Index: 2
-    OnUpdateLinks: []
-    OnEnterLinks:
-    - Id:
-        Value: 2526794132712080256
-    OnExitLinks:
-    - Id:
-        Value: 1370203551637859273
-    Transitions: []
-    ChildrenLinks: []
-    ParentLink:
-      Id:
-        Value: 0
-    Level: 0
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Index: 0
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions: []
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
 --- !u!114 &9173098701161640681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,15 +509,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 679d691cddcd5134fa4c5e2d3642b12d, type: 3}
+  m_Script: {fileID: 1084331888, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
   m_Name: HFSMNotDecision_Aga6XfsVTkaxUG9
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_Aga6XfsVTkaxUG9
-      Guid:
-        Value: 3384067041136242142
-    Label: 
-    Decisions:
-    - Id:
-        Value: 1644322353413198884
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  Label: 
+  Decisions: []

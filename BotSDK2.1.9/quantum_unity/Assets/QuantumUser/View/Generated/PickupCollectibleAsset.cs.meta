@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 65b62c68e493d8e45af787f55972eacd
+guid: 05b6aff35260b7344a550d7a8f3a9e45
+labels:
+- QuantumMigrationGuidMovedFrom
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

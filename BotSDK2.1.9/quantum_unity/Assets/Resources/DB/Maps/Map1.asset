@@ -9,80 +9,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a366507de6e4aa44aea490bd69adace, type: 3}
+  m_Script: {fileID: -1722638350, guid: b156eeaae3f741b40af66649a4748430, type: 3}
   m_Name: Map1
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/Maps/Map1
-      Guid:
-        Value: 1710471675203725834
-    UserAsset:
-      Id:
-        Value: 0
-    Scene: Little Guys Sample
-    ScenePath: Assets/Scenes/Little Guys Sample.unity
-    SceneGuid: df0313746c62ae7468d022915b562e1f
-    WorldSize: 256
-    BucketsCount: 16
-    BucketsSubdivisions: 8
-    BucketingAxis: 0
-    SortingAxis: 1
-    TriangleMeshCellSize: 4
-    StaticColliders3DTrianglesData:
-      Id:
-        Value: 270268453331261020
-    OptionalTriangleMetadataSerializationEnabled: 1
-    SerializeTrianglesMetadata: 0
-    StaticColliders3DTrianglesBinaryFile: 
-    GridSizeX: 32
-    GridSizeY: 32
-    GridNodeSize: 4
-    NavMeshLinks: []
-    Regions: []
-    StaticColliders2D:
-    - Rotation:
-        RawValue: 0
-      Position:
-        X:
-          RawValue: 0
-        Y:
-          RawValue: 327680
-      Height:
-        RawValue: 65536
-      VerticalOffset:
-        RawValue: 0
-      PhysicsMaterial:
-        Id:
-          Value: 0
-      Layer: 0
-      ShapeType: 4
-      CircleRadius:
-        RawValue: 0
-      BoxExtents:
-        X:
-          RawValue: 32768
-        Y:
-          RawValue: 32768
-      EdgeExtent:
-        RawValue: 0
-      PolygonCollider:
-        Identifier:
-          Path: 
-          Guid:
-            Value: 0
-        Vertices: []
-        Normals: []
-      StaticData:
-        Name: DeliveryPoint
-        Tag: Untagged
-        Layer: 0
-        Asset:
-          Id:
-            Value: 0
-        IsTrigger: 1
-        ColliderIndex: 0
-        MutableMode: 0
-    StaticColliders3D: []
-    MapEntities: []
-  Prototypes: []
+  Identifier:
+    Path: 
+    Guid:
+      Value: 0
+  UserAsset:
+    Id:
+      Value: 0
+  Scene: 
+  ScenePath: 
+  SceneGuid: 
+  WorldSize: 256
+  BucketsCount: 16
+  BucketsSubdivisions: 8
+  BucketingAxis: 0
+  SortingAxis: 1
+  SceneMeshCellSize:
+    RawValue: 262144
+  TriangleMeshCellSize: -1
+  StaticColliders3DTrianglesData:
+    Id:
+      Value: 0
+  SerializeTrianglesMetadata: 0
+  GridSizeX: 64
+  GridSizeY: 64
+  GridNodeSize: 4
+  NavMeshLinks: []
+  Regions: []
+  StaticColliders2D: []
+  StaticColliders3D: []
+  MapEntities: []
+  SerializedTriangleDataUncompressedSize: 0
+  references:
+    version: 2
+    RefIds: []
