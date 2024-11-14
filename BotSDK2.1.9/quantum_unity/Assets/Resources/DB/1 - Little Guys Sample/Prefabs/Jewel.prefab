@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: JewelEntityView
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/1 - Little Guys Sample/Prefabs/Jewel|EntityView
     Guid:
-      Value: 0
+      Value: 329182917947367162
   Prefab: {fileID: 0}

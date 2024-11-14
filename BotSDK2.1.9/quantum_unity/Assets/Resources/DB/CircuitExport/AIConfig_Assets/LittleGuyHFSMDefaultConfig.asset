@@ -12,36 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 195d1684cb59e0e4d94453de1af18a83, type: 3}
   m_Name: LittleGuyHFSMDefaultConfig
   m_EditorClassIdentifier: 
-  Settings:
-    Identifier:
-      Path: Resources/DB/CircuitExport/AIConfig_Assets/LittleGuyHFSMDefaultConfig
-      Guid:
-        Value: 2761208398243960147
-    DefaultConfig:
-      Id:
-        Value: 2761208398243960147
-    KeyValuePairs:
-    - Key: RestDuration
-      Type: 4
-      Value:
-        Integer: 0
-        Boolean: 0
-        Byte: 0
-        FP:
-          RawValue: 131072
-        FPVector2:
-          X:
-            RawValue: 0
-          Y:
-            RawValue: 0
-        FPVector3:
-          X:
-            RawValue: 0
-          Y:
-            RawValue: 0
-          Z:
-            RawValue: 0
-        String: 
-        AssetRef:
-          Id:
-            Value: 0
+  Identifier:
+    Path: Resources/DB/CircuitExport/AIConfig_Assets/LittleGuyHFSMDefaultConfig
+    Guid:
+      Value: 2761208398243960147
+  DefaultConfig:
+    Id:
+      Value: 2761208398243960147
+  KeyValuePairs:
+  - Key: RestDuration
+    Type: 4
+    Value:
+      Integer: 0
+      Boolean: 0
+      Byte: 0
+      FP:
+        RawValue: 131072
+      FPVector2:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+      FPVector3:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      String: 
+      AssetRef:
+        Id:
+          Value: 0

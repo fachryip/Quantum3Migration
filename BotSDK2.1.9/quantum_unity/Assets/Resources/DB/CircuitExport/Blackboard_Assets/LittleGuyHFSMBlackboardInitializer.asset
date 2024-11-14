@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: LittleGuyHFSMBlackboardInitializer
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyHFSMBlackboardInitializer
     Guid:
-      Value: 0
+      Value: 4595210268058214791
   ReportMissingEntries: 1
   AIBlackboard:
     Id:
-      Value: 0
+      Value: 480995672909682070
   InitialValues: []

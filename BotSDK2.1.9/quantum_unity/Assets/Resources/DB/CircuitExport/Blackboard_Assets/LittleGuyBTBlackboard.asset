@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: LittleGuyBTBlackboard
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboard
     Guid:
-      Value: 0
-  Entries: []
+      Value: 212034441238298086
+  Entries:
+  - Type: 6
+    Key:
+      Key: IntruderRef
   InitializerRef:
     Id:
       Value: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Spellcaster Map_mesh
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Maps/Spellcaster Map_mesh
     Guid:
-      Value: 0
-  Data: 
+      Value: 3936339046640904086
+  Data: 00000000
   IsCompressed: 0

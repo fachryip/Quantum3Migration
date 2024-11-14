@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: LittleGuyBTBlackboardInitializer
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboardInitializer
     Guid:
-      Value: 0
+      Value: 4308903825545278401
   ReportMissingEntries: 1
   AIBlackboard:
     Id:
-      Value: 0
+      Value: 212034441238298086
   InitialValues: []

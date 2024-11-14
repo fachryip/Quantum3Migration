@@ -13,37 +13,37 @@ MonoBehaviour:
   m_Name: Skeleton_Knight
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/2 - Spellcaster Sample/KCC_Config/Skeleton_Knight
     Guid:
-      Value: 0
+      Value: 874342988967139525
   Offset:
     X:
       RawValue: 0
     Y:
-      RawValue: 32768
+      RawValue: 65536
     Z:
       RawValue: 0
   Radius:
-    RawValue: 32768
+    RawValue: 65536
   MaxPenetration:
-    RawValue: 3277
+    RawValue: 6553
   PenetrationCorrection:
     RawValue: 32768
   Extent:
-    RawValue: 6554
-  MaxContacts: 8
+    RawValue: 0
+  MaxContacts: 4
   LayerMask:
-    BitMask: -1
+    BitMask: 311
   UseManifoldNormal: 0
-  AirControl: 1
+  AirControl: 0
   Acceleration:
-    RawValue: 1638400
-  Braking:
     RawValue: 655360
+  Braking:
+    RawValue: 661913
   BaseJumpImpulse:
-    RawValue: 262144
+    RawValue: 131072
   MaxSpeed:
-    RawValue: 196608
+    RawValue: 131072
   Gravity:
     X:
       RawValue: 0

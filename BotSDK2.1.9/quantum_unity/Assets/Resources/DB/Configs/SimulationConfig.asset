@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SimulationConfig
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/SimulationConfig
     Guid:
-      Value: 0
+      Value: 5
   Entities:
     CommitCommandsMode: 0
     DefaultEntityCapacity: 1024
@@ -26,7 +26,7 @@ MonoBehaviour:
       X:
         RawValue: 0
       Y:
-        RawValue: -655360
+        RawValue: 0
       Z:
         RawValue: 0
     SolverType: 1
@@ -35,7 +35,7 @@ MonoBehaviour:
     PositionSolverIterations: 2
     UseJoints: 1
     UseAngularVelocity: 1
-    UseVerticalTransform: 1
+    UseVerticalTransform: 0
     PenetrationAllowance:
       RawValue: 655
     PenetrationCorrection:
@@ -51,29 +51,29 @@ MonoBehaviour:
     ShapeCastMaxIterations: 16
     ShapeCastMinIterations: 4
     ShapeCastHardTolerance:
-      RawValue: 66
+      RawValue: 655
     ShapeCastSoftTolerance:
-      RawValue: 3277
+      RawValue: 3275
     AllowSleeping: 0
     SleepTimeSec:
       RawValue: 32768
     LinearSleepTolerance:
-      RawValue: 1311
+      RawValue: 1310
     AngularSleepToleranceInRad:
-      RawValue: 2288
+      RawValue: 2286
     AllowCCD: 0
     CCDLinearVelocityThreshold:
       RawValue: 196608
     CCDAngularVelocityThreshold:
       RawValue: 196608
     CCDDistanceTolerance:
-      RawValue: 66
+      RawValue: 65
     MaxTimeOfImpactIterations: 16
     MaxRootFindingIterations: 32
     DefaultEntriesCapacity: 2048
     DefaultStaticsCapacity: 1024
     DefaultQueriesCapacity: 1024
-    DefaultQueryItemsCapacity: 1024
+    DefaultQueryItemsCapacity: 4096
     DefaultHitCollectionItemsCapacity: 32
     DefaultBucketsCapacity: 16
     DefaultIslandsCapacity: 512
@@ -81,19 +81,51 @@ MonoBehaviour:
     DefaultJointsCapacity: 128
     DefaultPhysicsMaterial:
       Id:
-        Value: 0
+        Value: 1
     DefaultCharacterController2D:
       Id:
-        Value: 0
+        Value: 3
     DefaultCharacterController3D:
       Id:
-        Value: 0
-    Layers: []
-    LayerMatrix: 
+        Value: 4
+    Layers:
+    - Default
+    - TransparentFX
+    - Ignore Raycast
+    - 
+    - Water
+    - UI
+    - 
+    - 
+    - LittleGuy
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    LayerMatrix: fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   Navigation:
     DefaultNavMeshAgent:
       Id:
-        Value: 0
+        Value: 2
     EnableNavigationCallbacks: 0
     HeightThresholdForWaypoints:
       RawValue: 65536
@@ -103,17 +135,17 @@ MonoBehaviour:
     RawPathAllocationStrategy: 0
     EnableAvoidance: 1
     AvoidanceRange:
-      RawValue: 131072
+      RawValue: 524288
     MaxAvoidanceCandidates: 64
     VelocityObstacleTruncationFactor:
-      RawValue: 72090
-  AutoLoadSceneFromMap: 2
-  DeltaTimeType: 0
+      RawValue: 72089
+  AutoLoadSceneFromMap: 1
+  DeltaTimeType: 1
   ThreadCount: 2
   ChecksumSnapshotHistoryLengthSeconds:
     RawValue: 196608
   ChecksumErrorDumpOptions: 0
-  HeapTrackingMode: 1
-  HeapPageShift: 15
+  HeapTrackingMode: 0
+  HeapPageShift: 14
   HeapPageCount: 256
   HeapExtraCount: 0

@@ -13,35 +13,35 @@ MonoBehaviour:
   m_Name: DefaultCharacterController2D
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Configs/DefaultCharacterController2D
     Guid:
-      Value: 0
+      Value: 3
   Offset:
     X:
       RawValue: 0
     Y:
       RawValue: 0
   Radius:
-    RawValue: 45875
+    RawValue: 32768
   MaxPenetration:
-    RawValue: 655
+    RawValue: 6553
   PenetrationCorrection:
     RawValue: 32768
   Extent:
     RawValue: 13107
-  MaxContacts: 4
+  MaxContacts: 2
   LayerMask:
     BitMask: -1
   UseManifoldNormal: 0
-  AirControl: 1
+  AirControl: 0
   Acceleration:
-    RawValue: 1638400
+    RawValue: 655360
   Braking:
     RawValue: 655360
   BaseJumpImpulse:
-    RawValue: 262144
+    RawValue: 131072
   MaxSpeed:
-    RawValue: 196608
+    RawValue: 65536
   Gravity:
     X:
       RawValue: 0

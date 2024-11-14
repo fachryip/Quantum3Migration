@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Map1_mesh
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Maps/Map1_mesh
     Guid:
-      Value: 0
-  Data: 
+      Value: 270268453331261020
+  Data: 00000000
   IsCompressed: 0

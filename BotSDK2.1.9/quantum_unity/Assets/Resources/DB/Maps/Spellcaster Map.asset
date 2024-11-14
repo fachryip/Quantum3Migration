@@ -13,34 +13,78 @@ MonoBehaviour:
   m_Name: Spellcaster Map
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/DB/Maps/Spellcaster Map
     Guid:
-      Value: 0
+      Value: 3117678447127958250
   UserAsset:
     Id:
       Value: 0
-  Scene: 
-  ScenePath: 
-  SceneGuid: 
-  WorldSize: 256
+  Scene: Spellcaster Sample
+  ScenePath: Assets/Scenes/Spellcaster Sample.unity
+  SceneGuid: cccece8435b68024f9174113cc6bd18c
+  WorldSize: 128
   BucketsCount: 16
   BucketsSubdivisions: 8
   BucketingAxis: 0
   SortingAxis: 1
   SceneMeshCellSize:
     RawValue: 262144
-  TriangleMeshCellSize: -1
+  TriangleMeshCellSize: 4
   StaticColliders3DTrianglesData:
     Id:
-      Value: 0
+      Value: 3936339046640904086
   SerializeTrianglesMetadata: 0
-  GridSizeX: 64
-  GridSizeY: 64
+  GridSizeX: 32
+  GridSizeY: 32
   GridNodeSize: 4
   NavMeshLinks: []
   Regions: []
   StaticColliders2D: []
-  StaticColliders3D: []
+  StaticColliders3D:
+  - Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+    Position:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: -32768
+      Z:
+        RawValue: 0
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 3276800
+      Y:
+        RawValue: 32768
+      Z:
+        RawValue: 3276800
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: Ground
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 0
+      MutableMode: 0
   MapEntities: []
   SerializedTriangleDataUncompressedSize: 0
   references:
