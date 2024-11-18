@@ -1,0 +1,9 @@
+﻿asset GOAPRoot;
+asset GOAPGoal;
+asset GOAPAction;
+asset GOAPBackValidation;
+asset GOAPHeuristic;
+
+component GOAPAgent
+{
+}

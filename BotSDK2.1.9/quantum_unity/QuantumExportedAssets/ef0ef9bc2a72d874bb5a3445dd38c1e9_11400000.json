@@ -1,0 +1,15 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/Maps/Spellcaster Map_mesh",
+        "Guid": {
+            "Value": 3936339046640904086
+        }
+    },
+    "Data": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "IsCompressed": false
+}

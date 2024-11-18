@@ -1,0 +1,16 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|HFSMNotDecision_5EHfQKf76EKTs_B",
+        "Guid": {
+            "Value": 26044280555436397
+        }
+    },
+    "Label": "",
+    "Decisions": [
+        {
+            "Id": {
+                "Value": 2394344937181159777
+            }
+        }
+    ]
+}

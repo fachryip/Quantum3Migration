@@ -1,0 +1,32 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSelector_Uizwxp9QdEW2oTS",
+        "Guid": {
+            "Value": 408209697461276551
+        }
+    },
+    "Label": "BTSelector",
+    "Id": 1,
+    "Children": [
+        {
+            "Id": {
+                "Value": 1452781676455243959
+            }
+        },
+        {
+            "Id": {
+                "Value": 1336571502694835023
+            }
+        }
+    ],
+    "Services": [],
+    "TopmostDecorator": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "CurrentChildIndex": {
+        "Index": 0
+    },
+    "IsDynamic": false
+}

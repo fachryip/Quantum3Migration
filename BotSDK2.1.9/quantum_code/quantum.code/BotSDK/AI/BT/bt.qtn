@@ -1,0 +1,33 @@
+﻿asset BTNode;
+asset BTService;
+
+import BTRoot;
+
+component BTAgent {
+    asset_ref<BTRoot> Tree;
+    [HideInInspector] asset_ref<BTNode> Current;
+    AssetRefAIConfig Config;
+
+    [HideInInspector] list<Byte> NodesStatus;
+    [HideInInspector] list<BTDataValue> BTDataValues;
+
+    [HideInInspector] list<AssetRefBTService> ActiveServices;
+    [HideInInspector] list<FP> ServicesEndTimes;
+
+    [HideInInspector] list<AssetRefBTComposite> DynamicComposites;
+
+    [HideInInspector] Int32 AbortNodeId;
+}
+
+struct BTDataIndex{
+    Int32 Index;
+}
+
+union BTDataValue{
+    FP FPValue;
+    Int32 IntValue;
+}
+
+asset import BTComposite;
+asset import BTDecorator;
+asset import BTRoot;

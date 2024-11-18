@@ -1,0 +1,15 @@
+# 2.1.0
+
+## Build 17 (Oct 06, 2021)
+
+**Changes**
+
+- Added simple usage sample of the new GOAP, on the Little Guys scene
+- Updated Bot SDK version to 2.0.0 F1
+
+## Build 14 (Jun 21, 2021)
+
+**Changes**
+
+- Upgraded Quantum Sdk 2.1.0 770
+

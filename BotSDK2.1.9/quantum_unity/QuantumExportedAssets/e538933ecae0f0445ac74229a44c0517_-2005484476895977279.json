@@ -1,0 +1,19 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|IsFarAway_9j-brMRwE0GyIPy",
+        "Guid": {
+            "Value": 3263858815880111754
+        }
+    },
+    "Label": "IsFarAway",
+    "Id": 6,
+    "Child": {
+        "Id": {
+            "Value": 2793730492412776783
+        }
+    },
+    "AbortType": 0,
+    "Target": {
+        "Key": "IntruderRef"
+    }
+}

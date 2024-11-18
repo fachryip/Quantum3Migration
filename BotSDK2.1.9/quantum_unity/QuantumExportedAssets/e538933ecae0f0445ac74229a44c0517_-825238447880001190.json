@@ -1,0 +1,43 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|BTSequence_pLStP-mW_EavmML",
+        "Guid": {
+            "Value": 2489521402717425130
+        }
+    },
+    "Label": "BTSequence",
+    "Id": 3,
+    "Children": [
+        {
+            "Id": {
+                "Value": 3227345688627223671
+            }
+        },
+        {
+            "Id": {
+                "Value": 4115441448600793181
+            }
+        },
+        {
+            "Id": {
+                "Value": 4519541225221507308
+            }
+        }
+    ],
+    "Services": [
+        {
+            "Id": {
+                "Value": 2532411800575311476
+            }
+        }
+    ],
+    "TopmostDecorator": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "CurrentChildIndex": {
+        "Index": 2
+    },
+    "IsDynamic": false
+}

@@ -1,0 +1,42 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM",
+        "Guid": {
+            "Value": 4323545359010604072
+        }
+    },
+    "Label": "LittleGuyHFSM",
+    "StatesLinks": [
+        {
+            "Id": {
+                "Value": 415182397265773810
+            }
+        },
+        {
+            "Id": {
+                "Value": 3527842348051315155
+            }
+        },
+        {
+            "Id": {
+                "Value": 1173108510516828631
+            }
+        },
+        {
+            "Id": {
+                "Value": 26529799081000346
+            }
+        },
+        {
+            "Id": {
+                "Value": 4367626473759101840
+            }
+        },
+        {
+            "Id": {
+                "Value": 833653448371046745
+            }
+        }
+    ],
+    "EventsNames": []
+}

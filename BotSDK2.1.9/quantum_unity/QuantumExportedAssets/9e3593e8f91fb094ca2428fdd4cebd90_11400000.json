@@ -1,0 +1,102 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/Maps/Map1",
+        "Guid": {
+            "Value": 1710471675203725834
+        }
+    },
+    "UserAsset": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "Scene": "Little Guys Sample",
+    "ScenePath": "Assets/Scenes/Little Guys Sample.unity",
+    "SceneGuid": "df0313746c62ae7468d022915b562e1f",
+    "WorldSize": 256,
+    "BucketsCount": 16,
+    "BucketsSubdivisions": 8,
+    "BucketingAxis": 0,
+    "SortingAxis": 1,
+    "TriangleMeshCellSize": 4,
+    "StaticColliders3DTrianglesData": {
+        "Id": {
+            "Value": 270268453331261020
+        }
+    },
+    "OptionalTriangleMetadataSerializationEnabled": true,
+    "SerializeTrianglesMetadata": false,
+    "StaticColliders3DTrianglesBinaryFile": "",
+    "GridSizeX": 32,
+    "GridSizeY": 32,
+    "GridNodeSize": 4,
+    "NavMeshLinks": [],
+    "Regions": [],
+    "StaticColliders2D": [
+        {
+            "Rotation": {
+                "RawValue": 0
+            },
+            "Position": {
+                "X": {
+                    "RawValue": 0
+                },
+                "Y": {
+                    "RawValue": 327680
+                }
+            },
+            "Height": {
+                "RawValue": 65536
+            },
+            "VerticalOffset": {
+                "RawValue": 0
+            },
+            "PhysicsMaterial": {
+                "Id": {
+                    "Value": 0
+                }
+            },
+            "Layer": 0,
+            "ShapeType": 4,
+            "CircleRadius": {
+                "RawValue": 0
+            },
+            "BoxExtents": {
+                "X": {
+                    "RawValue": 32768
+                },
+                "Y": {
+                    "RawValue": 32768
+                }
+            },
+            "EdgeExtent": {
+                "RawValue": 0
+            },
+            "PolygonCollider": {
+                "Identifier": {
+                    "Path": "",
+                    "Guid": {
+                        "Value": 0
+                    }
+                },
+                "Vertices": [],
+                "Normals": []
+            },
+            "StaticData": {
+                "Name": "DeliveryPoint",
+                "Tag": "Untagged",
+                "Layer": 0,
+                "Asset": {
+                    "Id": {
+                        "Value": 0
+                    }
+                },
+                "IsTrigger": true,
+                "ColliderIndex": 0,
+                "MutableMode": 0
+            }
+        }
+    ],
+    "StaticColliders3D": [],
+    "MapEntities": []
+}

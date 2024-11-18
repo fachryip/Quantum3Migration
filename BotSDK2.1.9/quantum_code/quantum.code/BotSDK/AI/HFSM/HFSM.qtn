@@ -1,0 +1,24 @@
+﻿asset HFSMRoot;
+asset HFSMState;
+asset HFSMDecision;
+asset HFSMTransitionSet;
+
+component HFSMAgent{
+	HFSMData Data;
+	AssetRefAIConfig Config;
+}
+
+struct HFSMData
+{
+	asset_ref<HFSMRoot> Root;
+	[HideInInspector] asset_ref<HFSMState> CurrentState;
+	[HideInInspector] FP Time;
+	[HideInInspector] array<FP>[8] Times;
+
+    // History used to resume the work when going back to a sub-hfsm which already had left its Default state
+    // Every State has an id which is registered in a single byte
+    // When entering a State, the bit is activated. When leaving to a sibling State, it is deactivated
+    // When the state change was not between siblings, the flag is kept up as to keep registered that was the last sub-state entered
+    bool UsesStateHistory;
+    [HideInInspector]byte StatesHistory;
+}

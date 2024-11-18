@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e31f72e4c99a364189783be71ef7a2e, type: 3}
+  m_Name: QuantumEditorSettings
+  m_EditorClassIdentifier: 
+  AssetSearchPaths:
+  - Assets/Resources/DB
+  - Assets/QuantumUser/Resources
+  DefaultNewAssetsLocation: Assets/QuantumUser/Resources
+  UseQuantumUnityDBAssetPostprocessor: 1
+  UseQuantumToolbarUtilities: 1
+  QuantumToolbarZone: 0
+  UsePhotonAppVersionsPostprocessor: 1
+  EntityComponentInspectorMode: 2
+  AutoBuildOnSceneSave: 1
+  AutoBuildOnPlaymodeChanged: 1
+  AutoBuildOnBuild: 1
+  AssetGuidOverrides:
+  - Asset: {fileID: 4633065295874292212, guid: c12605e766ecc2e4aa4e93359e26e39e, type: 3}
+    Guid:
+      Value: 329182917947367162
+  - Asset: {fileID: 3473410228903124354, guid: 0f37bf8a9e037304b835a65db61c491e, type: 3}
+    Guid:
+      Value: 1452297143288246761
+  - Asset: {fileID: 11400000, guid: 2c2e671fd7dc77941b8326f62709ed98, type: 2}
+    Guid:
+      Value: 2761208398243960147
+  - Asset: {fileID: 11400000, guid: 50d5461fc7a380144b41360ef31fa748, type: 2}
+    Guid:
+      Value: 212034441238298086
+  - Asset: {fileID: 11400000, guid: f37ea07d40e6f0547b7828e15433b118, type: 2}
+    Guid:
+      Value: 4308903825545278401
+  - Asset: {fileID: 11400000, guid: 2f1890bd0e9ddd94e952c023c8df7466, type: 2}
+    Guid:
+      Value: 480995672909682070
+  - Asset: {fileID: 11400000, guid: 6eb45d6356d410b4fb76c8f1243eeed3, type: 2}
+    Guid:
+      Value: 4595210268058214791
+  - Asset: {fileID: 11400000, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 351181286624751912
+  - Asset: {fileID: 7342125904489195176, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 408209697461276551
+  - Asset: {fileID: -825238447880001190, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 2489521402717425130
+  - Asset: {fileID: -5415433543858629101, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 1336571502694835023
+  - Asset: {fileID: -3763555134720897704, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 4115441448600793181
+  - Asset: {fileID: -556225142328775810, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 4519541225221507308
+  - Asset: {fileID: -1100756833689155438, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 3227345688627223671
+  - Asset: {fileID: 6172003633951766975, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 2793730492412776783
+  - Asset: {fileID: -2005484476895977279, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 3263858815880111754
+  - Asset: {fileID: -3840171110944369908, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 1452781676455243959
+  - Asset: {fileID: 8081177325954925879, guid: e538933ecae0f0445ac74229a44c0517, type: 2}
+    Guid:
+      Value: 3595593222602555302
+  - Asset: {fileID: -3829629366789927518, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 2532411800575311476
+  - Asset: {fileID: -4119670842356715889, guid: e538933ecae0f0445ac74229a44c0517,
+      type: 2}
+    Guid:
+      Value: 741146582059223069
+  - Asset: {fileID: 11400000, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 4323545359010604072
+  - Asset: {fileID: -1529076329643384849, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 4544504762961226659
+  - Asset: {fileID: -2691933675164787452, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 4416348472217903229
+  - Asset: {fileID: -1396108997318729249, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 2791491756957529163
+  - Asset: {fileID: 5367871566362297516, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 894074335824034712
+  - Asset: {fileID: -3587763231714166401, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 1370203551637859273
+  - Asset: {fileID: -7599102914625539025, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 226970481612988451
+  - Asset: {fileID: -4686283463912333725, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 26044280555436397
+  - Asset: {fileID: -4653277486448573144, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 833033628281870387
+  - Asset: {fileID: 9173098701161640681, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 3384067041136242142
+  - Asset: {fileID: -1503967022499882340, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 313021203496315025
+  - Asset: {fileID: -7375665134638831204, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 2948202281121739668
+  - Asset: {fileID: -189286677558892486, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 3834285535646523217
+  - Asset: {fileID: 5554809972817580977, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 3527842348051315155
+  - Asset: {fileID: 2879598367101246570, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 833653448371046745
+  - Asset: {fileID: 7822493491665594568, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 1173108510516828631
+  - Asset: {fileID: -1793875303667410251, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 4367626473759101840
+  - Asset: {fileID: -562751218818555008, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 26529799081000346
+  - Asset: {fileID: -395143967836126924, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 415182397265773810
+  - Asset: {fileID: -1221943559527844063, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 490120032023811416
+  - Asset: {fileID: 3656245753528135479, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 2526794132712080256
+  - Asset: {fileID: -1259500329651339706, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 1644322353413198884
+  - Asset: {fileID: 3324330316335216960, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 764732636311929598
+  - Asset: {fileID: 4090071795851817837, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 2470029992444953340
+  - Asset: {fileID: -4423960895944166275, guid: 45e6ad29b325a924da22637f028a3cde,
+      type: 2}
+    Guid:
+      Value: 2394344937181159777
+  - Asset: {fileID: 2528056543990891845, guid: 45e6ad29b325a924da22637f028a3cde, type: 2}
+    Guid:
+      Value: 4025997051880897575
+  - Asset: {fileID: 11400000, guid: 6e939e96f7d70e7409249d368e7cf863, type: 2}
+    Guid:
+      Value: 3
+  - Asset: {fileID: 11400000, guid: 2ea2a06c76cc35d49be8a25324e787d4, type: 2}
+    Guid:
+      Value: 4
+  - Asset: {fileID: 11400000, guid: b199eb2129ec98e408b3fa8a106d9403, type: 2}
+    Guid:
+      Value: 2
+  - Asset: {fileID: 11400000, guid: 98fccc81f0f5f5541a88d6da1896016c, type: 2}
+    Guid:
+      Value: 1
+  - Asset: {fileID: 11400000, guid: 6986abea4748d7d4099d49d11e593ce8, type: 2}
+    Guid:
+      Value: 5
+  - Asset: {fileID: 11400000, guid: 9e3593e8f91fb094ca2428fdd4cebd90, type: 2}
+    Guid:
+      Value: 1710471675203725834
+  - Asset: {fileID: 11400000, guid: 470fe6908c63939468d3550b7e3182ec, type: 2}
+    Guid:
+      Value: 270268453331261020
+  - Asset: {fileID: 11400000, guid: 20566ad14ec0b8544bf1fb61f579e0c9, type: 2}
+    Guid:
+      Value: 3117678447127958250
+  - Asset: {fileID: 11400000, guid: ef0ef9bc2a72d874bb5a3445dd38c1e9, type: 2}
+    Guid:
+      Value: 3936339046640904086

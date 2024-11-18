@@ -1,0 +1,66 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|State_U9xYfLj0E0axZJd",
+        "Guid": {
+            "Value": 415182397265773810
+        }
+    },
+    "Label": "Choose",
+    "Index": 1,
+    "OnUpdateLinks": [],
+    "OnEnterLinks": [
+        {
+            "Id": {
+                "Value": 894074335824034712
+            }
+        }
+    ],
+    "OnExitLinks": [],
+    "Transitions": [
+        {
+            "Id": "657fe27f-1bdc-48e7-a0bd-dfabc5e48824",
+            "EventKey": 0,
+            "DecisionLink": {
+                "Id": {
+                    "Value": 833033628281870387
+                }
+            },
+            "StateLink": {
+                "Id": {
+                    "Value": 1173108510516828631
+                }
+            },
+            "TransitionSetLink": {
+                "Id": {
+                    "Value": 0
+                }
+            }
+        },
+        {
+            "Id": "7a323688-7a9c-424b-9974-b53831466034",
+            "EventKey": 0,
+            "DecisionLink": {
+                "Id": {
+                    "Value": 2470029992444953340
+                }
+            },
+            "StateLink": {
+                "Id": {
+                    "Value": 4367626473759101840
+                }
+            },
+            "TransitionSetLink": {
+                "Id": {
+                    "Value": 0
+                }
+            }
+        }
+    ],
+    "ChildrenLinks": [],
+    "ParentLink": {
+        "Id": {
+            "Value": 0
+        }
+    },
+    "Level": 0
+}

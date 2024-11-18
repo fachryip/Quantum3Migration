@@ -1,0 +1,23 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/HFSM_Assets/LittleGuyHFSM|CheckBlackboardInt_ABGOZ-JH8UmELeG",
+        "Guid": {
+            "Value": 4416348472217903229
+        }
+    },
+    "Label": "",
+    "Key": {
+        "Key": "TokensReturned"
+    },
+    "Comparison": 1,
+    "DesiredValue": {
+        "Source": 1,
+        "Key": "",
+        "DefaultValue": 3,
+        "FunctionRef": {
+            "Id": {
+                "Value": 0
+            }
+        }
+    }
+}

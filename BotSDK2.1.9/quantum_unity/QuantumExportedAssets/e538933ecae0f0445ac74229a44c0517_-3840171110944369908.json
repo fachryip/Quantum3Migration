@@ -1,0 +1,19 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|NoIntruderNearby_o1D7HJ-CxEaR8mk",
+        "Guid": {
+            "Value": 1452781676455243959
+        }
+    },
+    "Label": "NoIntruderNearby",
+    "Id": 4,
+    "Child": {
+        "Id": {
+            "Value": 2489521402717425130
+        }
+    },
+    "AbortType": 1,
+    "IntruderRef": {
+        "Key": "IntruderRef"
+    }
+}

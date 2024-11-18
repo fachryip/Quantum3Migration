@@ -1,0 +1,17 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|WaitLeaf_QmYQOnAlrEW0CCv",
+        "Guid": {
+            "Value": 741146582059223069
+        }
+    },
+    "Label": "WaitLeaf",
+    "Id": 9,
+    "Services": [],
+    "Duration": {
+        "RawValue": 131072
+    },
+    "EndTimeIndex": {
+        "Index": 3
+    }
+}

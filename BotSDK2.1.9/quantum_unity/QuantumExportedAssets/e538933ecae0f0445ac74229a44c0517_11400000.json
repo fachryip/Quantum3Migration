@@ -1,0 +1,17 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT",
+        "Guid": {
+            "Value": 351181286624751912
+        }
+    },
+    "Label": "",
+    "Id": 0,
+    "Child": {
+        "Id": {
+            "Value": 408209697461276551
+        }
+    },
+    "AbortType": 0,
+    "NodesAmount": 12
+}

@@ -1,0 +1,11 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|FindCollectible_qysrHtj0nUicn1O",
+        "Guid": {
+            "Value": 3227345688627223671
+        }
+    },
+    "Label": "FindCollectible",
+    "Id": 7,
+    "Services": []
+}

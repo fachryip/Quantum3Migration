@@ -1,0 +1,15 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/Blackboard_Assets/LittleGuyBTBlackboardInitializer",
+        "Guid": {
+            "Value": 4308903825545278401
+        }
+    },
+    "ReportMissingEntries": true,
+    "AIBlackboard": {
+        "Id": {
+            "Value": 212034441238298086
+        }
+    },
+    "InitialValues": []
+}

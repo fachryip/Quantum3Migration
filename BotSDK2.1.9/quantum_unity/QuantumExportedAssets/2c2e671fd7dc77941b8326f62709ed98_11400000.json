@@ -1,0 +1,52 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/AIConfig_Assets/LittleGuyHFSMDefaultConfig",
+        "Guid": {
+            "Value": 2761208398243960147
+        }
+    },
+    "DefaultConfig": {
+        "Id": {
+            "Value": 2761208398243960147
+        }
+    },
+    "KeyValuePairs": [
+        {
+            "Key": "RestDuration",
+            "Type": 4,
+            "Value": {
+                "Integer": 0,
+                "Boolean": false,
+                "Byte": 0,
+                "FP": {
+                    "RawValue": 131072
+                },
+                "FPVector2": {
+                    "X": {
+                        "RawValue": 0
+                    },
+                    "Y": {
+                        "RawValue": 0
+                    }
+                },
+                "FPVector3": {
+                    "X": {
+                        "RawValue": 0
+                    },
+                    "Y": {
+                        "RawValue": 0
+                    },
+                    "Z": {
+                        "RawValue": 0
+                    }
+                },
+                "String": "",
+                "AssetRef": {
+                    "Id": {
+                        "Value": 0
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Identifier": {
+        "Path": "Resources/DB/CircuitExport/BT_Assets/LittleGuyBT|CollectibleExists_zyvJEu28mkaCYlG",
+        "Guid": {
+            "Value": 4115441448600793181
+        }
+    },
+    "Label": "CollectibleExists",
+    "Id": 11,
+    "Child": {
+        "Id": {
+            "Value": 3595593222602555302
+        }
+    },
+    "AbortType": 0
+}
